@@ -18,7 +18,7 @@ class ClassicAttack;
  	Soldier(AbstractState* state);
 	public:
 	Soldier();
-	~Soldier();
+	virtual~Soldier();
 
 	void clickSpecialAbility() override;
 	void attack(AbstractUnit *enemy) override;
