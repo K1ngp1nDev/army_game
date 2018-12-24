@@ -686,19 +686,19 @@ CMakeFiles/___arm.dir/Units/Warlock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/___arm.dir/Units/Warlock.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\___arm\Units\Warlock.cpp -o CMakeFiles\___arm.dir\Units\Warlock.cpp.s
 
-CMakeFiles/___arm.dir/Units/WereWolf.cpp.obj: CMakeFiles/___arm.dir/flags.make
-CMakeFiles/___arm.dir/Units/WereWolf.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
-CMakeFiles/___arm.dir/Units/WereWolf.cpp.obj: ../Units/WereWolf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/___arm.dir/Units/WereWolf.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Units\WereWolf.cpp.obj -c F:\___arm\Units\WereWolf.cpp
+CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj: CMakeFiles/___arm.dir/flags.make
+CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
+CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj: ../Units/Lycanthrope.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Units\Lycanthrope.cpp.obj -c F:\___arm\Units\Lycanthrope.cpp
 
-CMakeFiles/___arm.dir/Units/WereWolf.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/___arm.dir/Units/WereWolf.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\___arm\Units\WereWolf.cpp > CMakeFiles\___arm.dir\Units\WereWolf.cpp.i
+CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\___arm\Units\Lycanthrope.cpp > CMakeFiles\___arm.dir\Units\Lycanthrope.cpp.i
 
-CMakeFiles/___arm.dir/Units/WereWolf.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/___arm.dir/Units/WereWolf.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\___arm\Units\WereWolf.cpp -o CMakeFiles\___arm.dir\Units\WereWolf.cpp.s
+CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\___arm\Units\Lycanthrope.cpp -o CMakeFiles\___arm.dir\Units\Lycanthrope.cpp.s
 
 CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
@@ -1013,7 +1013,7 @@ ___arm_OBJECTS = \
 "CMakeFiles/___arm.dir/Units/Soldier.cpp.obj" \
 "CMakeFiles/___arm.dir/Units/Vampire.cpp.obj" \
 "CMakeFiles/___arm.dir/Units/Warlock.cpp.obj" \
-"CMakeFiles/___arm.dir/Units/WereWolf.cpp.obj" \
+"CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj" \
 "CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.obj" \
 "CMakeFiles/___arm.dir/Weapons/Claws.cpp.obj" \
 "CMakeFiles/___arm.dir/Weapons/Dagger.cpp.obj" \
@@ -1082,7 +1082,7 @@ ___arm.exe: CMakeFiles/___arm.dir/Units/Rogue.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Units/Soldier.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Units/Vampire.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Units/Warlock.cpp.obj
-___arm.exe: CMakeFiles/___arm.dir/Units/WereWolf.cpp.obj
+___arm.exe: CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Weapons/Claws.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Weapons/Dagger.cpp.obj

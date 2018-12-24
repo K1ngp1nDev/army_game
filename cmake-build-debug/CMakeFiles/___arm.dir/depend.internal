@@ -635,6 +635,8 @@ CMakeFiles/___arm.dir/Units/Healer.cpp.obj
  F:/___arm/Units/Healer.hpp
  F:/___arm/Weapons/BlackStaff.hpp
  F:/___arm/Weapons/Fists.hpp
+CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj
+ F:/___arm/Units/Lycanthrope.cpp
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj
  ../Abilities/SpecialAbility.hpp
  ../States/MageState.hpp
@@ -819,8 +821,6 @@ CMakeFiles/___arm.dir/Units/Warlock.cpp.obj
  F:/___arm/Weapons/BlackStaff.hpp
  F:/___arm/Weapons/Fists.hpp
  F:/___arm/Weapons/VikingSword.hpp
-CMakeFiles/___arm.dir/Units/WereWolf.cpp.obj
- F:/___arm/Units/WereWolf.cpp
 CMakeFiles/___arm.dir/Weapons/Axe.cpp.obj
  F:/___arm/Interfaces/AbstractWeapon.hpp
  F:/___arm/Weapons/Axe.cpp
@@ -860,45 +860,10 @@ CMakeFiles/___arm.dir/Weapons/VikingSword.cpp.obj
  F:/___arm/Weapons/VikingSword.cpp
  F:/___arm/Weapons/VikingSword.hpp
 CMakeFiles/___arm.dir/main.cpp.obj
- ../States/MageState.hpp
- F:/___arm/Abilities/ClassicAttack.hpp
- F:/___arm/Abilities/DaemonAttack.hpp
- F:/___arm/Abilities/Mount.hpp
- F:/___arm/Abilities/RogueAttack.hpp
- F:/___arm/Abilities/SpecialAbility.hpp
  F:/___arm/Controller/Action.hpp
  F:/___arm/Controller/GamePlayInterface.hpp
- F:/___arm/Exceptions/OutOfManaException.hpp
- F:/___arm/Exceptions/UnitIsDeadException.hpp
- F:/___arm/Interfaces/AbstractAttack.hpp
- F:/___arm/Interfaces/AbstractCaster.hpp
- F:/___arm/Interfaces/AbstractPhysician.hpp
  F:/___arm/Interfaces/AbstractSpell.hpp
- F:/___arm/Interfaces/AbstractState.hpp
  F:/___arm/Interfaces/AbstractUnit.hpp
- F:/___arm/Interfaces/AbstractWeapon.hpp
  F:/___arm/Interfaces/BattleField.hpp
- F:/___arm/Interfaces/SpellBook.hpp
  F:/___arm/Interfaces/Team.hpp
- F:/___arm/States/BerserkState.hpp
- F:/___arm/States/DaemonState.hpp
- F:/___arm/States/MageState.hpp
- F:/___arm/States/NecromancerState.hpp
- F:/___arm/States/RogueState.hpp
- F:/___arm/States/SoldierState.hpp
- F:/___arm/Units/Berserker.hpp
- F:/___arm/Units/Daemon.hpp
- F:/___arm/Units/Healer.hpp
- F:/___arm/Units/Mage.hpp
- F:/___arm/Units/Necromancer.hpp
- F:/___arm/Units/Priest.hpp
- F:/___arm/Units/Rogue.hpp
- F:/___arm/Units/Soldier.hpp
- F:/___arm/Units/Vampire.hpp
- F:/___arm/Units/Warlock.hpp
- F:/___arm/Units/WereWolf.hpp
- F:/___arm/Weapons/Axe.hpp
- F:/___arm/Weapons/Dagger.hpp
- F:/___arm/Weapons/Fists.hpp
- F:/___arm/Weapons/VikingSword.hpp
  F:/___arm/main.cpp

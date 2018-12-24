@@ -44,7 +44,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/___arm.dir/Units/Soldier.cpp.obj"
   "CMakeFiles/___arm.dir/Units/Vampire.cpp.obj"
   "CMakeFiles/___arm.dir/Units/Warlock.cpp.obj"
-  "CMakeFiles/___arm.dir/Units/WereWolf.cpp.obj"
+  "CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj"
   "CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.obj"
   "CMakeFiles/___arm.dir/Weapons/Claws.cpp.obj"
   "CMakeFiles/___arm.dir/Weapons/Dagger.cpp.obj"

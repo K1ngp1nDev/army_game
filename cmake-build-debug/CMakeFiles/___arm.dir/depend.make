@@ -635,6 +635,8 @@ CMakeFiles/___arm.dir/Units/Healer.cpp.obj: ../Units/Healer.hpp
 CMakeFiles/___arm.dir/Units/Healer.cpp.obj: ../Weapons/BlackStaff.hpp
 CMakeFiles/___arm.dir/Units/Healer.cpp.obj: ../Weapons/Fists.hpp
 
+CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj: ../Units/Lycanthrope.cpp
+
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../Abilities/SpecialAbility.hpp
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../States/MageState.hpp
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../Abilities/ClassicAttack.hpp
@@ -819,8 +821,6 @@ CMakeFiles/___arm.dir/Units/Warlock.cpp.obj: ../Weapons/BlackStaff.hpp
 CMakeFiles/___arm.dir/Units/Warlock.cpp.obj: ../Weapons/Fists.hpp
 CMakeFiles/___arm.dir/Units/Warlock.cpp.obj: ../Weapons/VikingSword.hpp
 
-CMakeFiles/___arm.dir/Units/WereWolf.cpp.obj: ../Units/WereWolf.cpp
-
 CMakeFiles/___arm.dir/Weapons/Axe.cpp.obj: ../Interfaces/AbstractWeapon.hpp
 CMakeFiles/___arm.dir/Weapons/Axe.cpp.obj: ../Weapons/Axe.cpp
 CMakeFiles/___arm.dir/Weapons/Axe.cpp.obj: ../Weapons/Axe.hpp
@@ -859,46 +859,11 @@ CMakeFiles/___arm.dir/Weapons/VikingSword.cpp.obj: ../Interfaces/AbstractWeapon.
 CMakeFiles/___arm.dir/Weapons/VikingSword.cpp.obj: ../Weapons/VikingSword.cpp
 CMakeFiles/___arm.dir/Weapons/VikingSword.cpp.obj: ../Weapons/VikingSword.hpp
 
-CMakeFiles/___arm.dir/main.cpp.obj: ../States/MageState.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Abilities/ClassicAttack.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Abilities/DaemonAttack.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Abilities/Mount.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Abilities/RogueAttack.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Abilities/SpecialAbility.hpp
 CMakeFiles/___arm.dir/main.cpp.obj: ../Controller/Action.hpp
 CMakeFiles/___arm.dir/main.cpp.obj: ../Controller/GamePlayInterface.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Exceptions/OutOfManaException.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Exceptions/UnitIsDeadException.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Interfaces/AbstractAttack.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Interfaces/AbstractCaster.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Interfaces/AbstractPhysician.hpp
 CMakeFiles/___arm.dir/main.cpp.obj: ../Interfaces/AbstractSpell.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Interfaces/AbstractState.hpp
 CMakeFiles/___arm.dir/main.cpp.obj: ../Interfaces/AbstractUnit.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Interfaces/AbstractWeapon.hpp
 CMakeFiles/___arm.dir/main.cpp.obj: ../Interfaces/BattleField.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Interfaces/SpellBook.hpp
 CMakeFiles/___arm.dir/main.cpp.obj: ../Interfaces/Team.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../States/BerserkState.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../States/DaemonState.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../States/MageState.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../States/NecromancerState.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../States/RogueState.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../States/SoldierState.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Units/Berserker.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Units/Daemon.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Units/Healer.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Units/Mage.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Units/Necromancer.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Units/Priest.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Units/Rogue.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Units/Soldier.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Units/Vampire.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Units/Warlock.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Units/WereWolf.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Weapons/Axe.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Weapons/Dagger.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Weapons/Fists.hpp
-CMakeFiles/___arm.dir/main.cpp.obj: ../Weapons/VikingSword.hpp
 CMakeFiles/___arm.dir/main.cpp.obj: ../main.cpp
 

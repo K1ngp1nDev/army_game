@@ -1364,6 +1364,33 @@ Units/Healer.cpp.s:
 	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Units/Healer.cpp.s
 .PHONY : Units/Healer.cpp.s
 
+Units/Lycanthrope.obj: Units/Lycanthrope.cpp.obj
+
+.PHONY : Units/Lycanthrope.obj
+
+# target to build an object file
+Units/Lycanthrope.cpp.obj:
+	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj
+.PHONY : Units/Lycanthrope.cpp.obj
+
+Units/Lycanthrope.i: Units/Lycanthrope.cpp.i
+
+.PHONY : Units/Lycanthrope.i
+
+# target to preprocess a source file
+Units/Lycanthrope.cpp.i:
+	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.i
+.PHONY : Units/Lycanthrope.cpp.i
+
+Units/Lycanthrope.s: Units/Lycanthrope.cpp.s
+
+.PHONY : Units/Lycanthrope.s
+
+# target to generate assembly for a file
+Units/Lycanthrope.cpp.s:
+	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.s
+.PHONY : Units/Lycanthrope.cpp.s
+
 Units/Mage.obj: Units/Mage.cpp.obj
 
 .PHONY : Units/Mage.obj
@@ -1552,33 +1579,6 @@ Units/Warlock.s: Units/Warlock.cpp.s
 Units/Warlock.cpp.s:
 	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Units/Warlock.cpp.s
 .PHONY : Units/Warlock.cpp.s
-
-Units/WereWolf.obj: Units/WereWolf.cpp.obj
-
-.PHONY : Units/WereWolf.obj
-
-# target to build an object file
-Units/WereWolf.cpp.obj:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Units/WereWolf.cpp.obj
-.PHONY : Units/WereWolf.cpp.obj
-
-Units/WereWolf.i: Units/WereWolf.cpp.i
-
-.PHONY : Units/WereWolf.i
-
-# target to preprocess a source file
-Units/WereWolf.cpp.i:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Units/WereWolf.cpp.i
-.PHONY : Units/WereWolf.cpp.i
-
-Units/WereWolf.s: Units/WereWolf.cpp.s
-
-.PHONY : Units/WereWolf.s
-
-# target to generate assembly for a file
-Units/WereWolf.cpp.s:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Units/WereWolf.cpp.s
-.PHONY : Units/WereWolf.cpp.s
 
 Weapons/Axe.obj: Weapons/Axe.cpp.obj
 
@@ -2024,6 +2024,9 @@ help:
 	@echo ... Units/Healer.obj
 	@echo ... Units/Healer.i
 	@echo ... Units/Healer.s
+	@echo ... Units/Lycanthrope.obj
+	@echo ... Units/Lycanthrope.i
+	@echo ... Units/Lycanthrope.s
 	@echo ... Units/Mage.obj
 	@echo ... Units/Mage.i
 	@echo ... Units/Mage.s
@@ -2045,9 +2048,6 @@ help:
 	@echo ... Units/Warlock.obj
 	@echo ... Units/Warlock.i
 	@echo ... Units/Warlock.s
-	@echo ... Units/WereWolf.obj
-	@echo ... Units/WereWolf.i
-	@echo ... Units/WereWolf.s
 	@echo ... Weapons/Axe.obj
 	@echo ... Weapons/Axe.i
 	@echo ... Weapons/Axe.s

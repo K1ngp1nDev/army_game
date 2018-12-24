@@ -431,6 +431,12 @@
 		<Unit filename="F:/___arm/Units/Healer.hpp">
 			<Option target="___arm"/>
 		</Unit>
+		<Unit filename="F:/___arm/Units/Lycanthrope.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Lycanthrope.hpp">
+			<Option target="___arm"/>
+		</Unit>
 		<Unit filename="F:/___arm/Units/Mage.cpp">
 			<Option target="___arm"/>
 		</Unit>
@@ -471,12 +477,6 @@
 			<Option target="___arm"/>
 		</Unit>
 		<Unit filename="F:/___arm/Units/Warlock.hpp">
-			<Option target="___arm"/>
-		</Unit>
-		<Unit filename="F:/___arm/Units/WereWolf.cpp">
-			<Option target="___arm"/>
-		</Unit>
-		<Unit filename="F:/___arm/Units/WereWolf.hpp">
 			<Option target="___arm"/>
 		</Unit>
 		<Unit filename="F:/___arm/Weapons/Axe.cpp">
