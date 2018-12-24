@@ -29,7 +29,7 @@ void Team::removeUnit(int team, AbstractUnit *unit) {
 		for ( std::multimap<select_team, AbstractUnit *>::iterator iterator = m_team_units.begin();
 		      iterator != m_team_units.end(); iterator++ ) {
 			if (iterator->second == unit) {
-				std::cout << "flag blue. team.cpp erase" << std::endl;
+//				std::cout << "flag blue. team.cpp erase" << std::endl;
  				m_team_units.erase(iterator);
 				return;
 				
@@ -40,7 +40,7 @@ void Team::removeUnit(int team, AbstractUnit *unit) {
 		for ( std::multimap<select_team, AbstractUnit *>::iterator iterator = m_team_units.begin();
 		      iterator != m_team_units.end(); iterator++ ) {
 			if (iterator->second == unit) {
-				std::cout << "flag red. team.cpp erase" << std::endl;
+//				std::cout << "flag red. team.cpp erase" << std::endl;
 
 				m_team_units.erase(iterator);
 				return;

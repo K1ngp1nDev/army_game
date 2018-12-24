@@ -26,7 +26,7 @@ void Observer::add(AbstractUnit *observer, AbstractUnit *observable) {
 }
 
 void Observer::informObserver(AbstractUnit* unit) {
-	std::cout << "FLAG Observer.cpp" << std::endl;
+//	std::cout << "FLAG Observer.cpp" << std::endl;
 	std::map<AbstractUnit*, std::set<AbstractUnit*>>::const_iterator it = m_list_of_victims.begin();
 	
 	if ( !m_list_of_victims.empty() ) {

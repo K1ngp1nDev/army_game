@@ -532,7 +532,7 @@ void BattleField::clearPointAndDelUnit(AbstractUnit *target) {
 	for( std::map<std::pair<int, int>, AbstractUnit*>::const_iterator it = points.begin();
 	     it != points.end(); it++) {
 		if((it->second) == target) {
-			std::cout << "FLAG BATTLE.CPP clearPointAndDelUnit   --- 1 " << std::endl;
+//			std::cout << "FLAG BATTLE.CPP clearPointAndDelUnit   --- 1 " << std::endl;
 //			std::cout << "delete point of " << (it)->second->getState()->getName() << std::endl;
 			location[(it)->first.first][(it)->first.second] = 'x';
 			
@@ -544,7 +544,7 @@ void BattleField::clearPointAndDelUnit(AbstractUnit *target) {
 	for( std::map<int, AbstractUnit*>::const_iterator iterator = m_selected_units.begin();
 	     iterator != m_selected_units.end(); iterator++) {
 		if ( iterator->second == target ) {
-			std::cout << "FLAG BATTLE.CPP clearPointAndDelUnit   --- 2 " << std::endl;
+//			std::cout << "FLAG BATTLE.CPP clearPointAndDelUnit   --- 2 " << std::endl;
 
 			m_selected_units.erase(iterator->first);
 			break;
@@ -553,7 +553,7 @@ void BattleField::clearPointAndDelUnit(AbstractUnit *target) {
 
 	getTeam()->removeUnit(getTeam()->showPlayerTeam(target), target);
 	if ( target->getState()->getHp() <= 0 ) {
-		std::cout << "FLAG BATTLE.CPP clearPointAndDelUnit   --- 3 " << std::endl;
+//		std::cout << "FLAG BATTLE.CPP clearPointAndDelUnit   --- 3 " << std::endl;
 
 		delete target;
 		return;
