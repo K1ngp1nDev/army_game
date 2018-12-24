@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="___arm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/___arm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="___arm">
+				<Option output="F:/___arm/cmake-build-debug/___arm.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/___arm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/___arm/Abilities"/>
+					<Add directory="F:/___arm/Armour"/>
+					<Add directory="F:/___arm/Controller"/>
+					<Add directory="F:/___arm/Exceptions"/>
+					<Add directory="F:/___arm/Interfaces"/>
+					<Add directory="F:/___arm/Spells"/>
+					<Add directory="F:/___arm/States"/>
+					<Add directory="F:/___arm/Units"/>
+					<Add directory="F:/___arm/Weapons"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 ___arm"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="___arm/fast">
+				<Option output="F:/___arm/cmake-build-debug/___arm.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/___arm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/___arm/Abilities"/>
+					<Add directory="F:/___arm/Armour"/>
+					<Add directory="F:/___arm/Controller"/>
+					<Add directory="F:/___arm/Exceptions"/>
+					<Add directory="F:/___arm/Interfaces"/>
+					<Add directory="F:/___arm/Spells"/>
+					<Add directory="F:/___arm/States"/>
+					<Add directory="F:/___arm/Units"/>
+					<Add directory="F:/___arm/Weapons"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 ___arm/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/___arm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/___arm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;F:/___arm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/___arm/Abilities/ClassicAttack.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/ClassicAttack.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/DaemonAttack.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/DaemonAttack.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/LycanthropeAttack.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/LycanthropeAttack.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/Mount.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/Mount.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/NecromancerAttack.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/NecromancerAttack.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/RangeAttack.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/RangeAttack.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/RogueAttack.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/RogueAttack.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/SpecialAbility.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/SpecialAbility.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/Transformation.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/Transformation.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/VampireAttack.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Abilities/VampireAttack.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Armour/Shield.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Armour/Shield.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/Action.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/ActionMageCast.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/ActionMageMeditation.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/ActionMeleeAttack.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/ActionRangeAttack.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/ActionSummonDaemon.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/ActionTransformation.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/ActionUnitMove.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/ActionUseMount.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/Answer.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/AnswerByHandFillAll.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/AnswerByHandFillAll.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/GamePlayInterface.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/GamePlayInterface.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/MakeWereWolf.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/MakeWereWolf.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/Question.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/actionfactory.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Controller/actionfactory.h">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Exceptions/DaemonDoesNotExistException.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Exceptions/OutOfManaException.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Exceptions/UnitIsDeadException.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractAttack.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractAttack.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractCaster.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractCaster.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractPhysician.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractPhysician.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractSpell.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractSpell.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractUnit.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractUnit.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractWeapon.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/AbstractWeapon.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/Attribute.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/BattleField.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/BattleField.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/Beast.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/Human.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/Observer.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/Observer.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/SpellBook.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/Team.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/Team.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Interfaces/Undead.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Spells/Blast.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Spells/Blast.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Spells/FireBall.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Spells/FireBall.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Spells/GreaterHeal.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Spells/GreaterHeal.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Spells/Heal.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Spells/Heal.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Spells/SummonDaemon.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Spells/SummonDaemon.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/BerserkState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/BerserkState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/DaemonState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/DaemonState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/HealerState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/HealerState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/HumanWolfState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/HumanWolfState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/MageState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/MageState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/NecromancerState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/NecromancerState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/PriestState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/PriestState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/RogueState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/RogueState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/SoldierState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/SoldierState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/SourceState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/SourceState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/VampireState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/VampireState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/WarlockState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/WarlockState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/WereWolfState.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/States/WereWolfState.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Berserker.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Berserker.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Daemon.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Daemon.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Healer.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Healer.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Mage.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Mage.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Necromancer.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Necromancer.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Priest.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Priest.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Rogue.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Rogue.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Soldier.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Soldier.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Vampire.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Vampire.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Warlock.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/Warlock.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/WereWolf.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Units/WereWolf.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/Axe.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/Axe.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/BlackStaff.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/BlackStaff.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/Bow.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/Bow.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/Claws.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/Claws.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/CrossBow.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/CrossBow.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/Dagger.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/Dagger.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/Fists.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/Fists.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/SourceWeapon.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/SourceWeapon.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/Teeth.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/Teeth.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/VikingSword.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/Weapons/VikingSword.hpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/main.cpp">
+			<Option target="___arm"/>
+		</Unit>
+		<Unit filename="F:/___arm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,134 @@
+cmake_minimum_required(VERSION 3.10)
+project(___arm)
+
+set(CMAKE_CXX_STANDARD 11)
+
+include_directories(Abilities)
+include_directories(Armour)
+include_directories(Controller)
+include_directories(Exceptions)
+include_directories(Interfaces)
+include_directories(Spells)
+include_directories(States)
+include_directories(Units)
+include_directories(Weapons)
+
+add_executable(___arm
+        Abilities/ClassicAttack.cpp
+        Abilities/ClassicAttack.hpp
+        Abilities/DaemonAttack.cpp
+        Abilities/DaemonAttack.hpp
+        Abilities/NecromancerAttack.cpp
+        Abilities/NecromancerAttack.hpp
+        Abilities/RogueAttack.cpp
+        Abilities/RogueAttack.hpp
+        Abilities/SpecialAbility.cpp
+        Abilities/SpecialAbility.hpp
+        Abilities/Transformation.cpp
+        Abilities/Transformation.hpp
+        Abilities/VampireAttack.cpp
+        Abilities/VampireAttack.hpp
+        Abilities/LycanthropeAttack.cpp
+        Abilities/LycanthropeAttack.hpp
+        Armour/Shield.cpp
+        Armour/Shield.hpp
+        Controller/Action.hpp
+        Controller/actionfactory.cpp
+        Controller/actionfactory.h
+        Controller/ActionMageCast.hpp
+        Controller/ActionMeleeAttack.hpp
+        Controller/ActionUnitMove.hpp
+        Controller/Answer.hpp
+        Controller/AnswerByHandFillAll.cpp
+        Controller/AnswerByHandFillAll.hpp
+        Controller/GamePlayInterface.cpp
+        Controller/GamePlayInterface.hpp
+        Controller/Question.hpp
+        Exceptions/DaemonDoesNotExistException.hpp
+        Exceptions/OutOfManaException.hpp
+        Exceptions/UnitIsDeadException.hpp
+        Interfaces/AbstractAttack.cpp
+        Interfaces/AbstractAttack.hpp
+        Interfaces/AbstractCaster.cpp
+        Interfaces/AbstractCaster.hpp
+        Interfaces/AbstractPhysician.cpp
+        Interfaces/AbstractPhysician.hpp
+        Interfaces/AbstractSpell.cpp
+        Interfaces/AbstractSpell.hpp
+        Interfaces/AbstractState.cpp
+        Interfaces/AbstractState.hpp
+        Interfaces/AbstractUnit.cpp
+        Interfaces/AbstractUnit.hpp
+        Interfaces/AbstractWeapon.cpp
+        Interfaces/AbstractWeapon.hpp
+        Interfaces/BattleField.cpp
+        Interfaces/BattleField.hpp
+        Interfaces/SpellBook.hpp
+        Interfaces/Team.cpp
+        Interfaces/Team.hpp
+        Interfaces/Undead.hpp
+        Spells/Blast.cpp
+        Spells/Blast.hpp
+        Spells/FireBall.cpp
+        Spells/FireBall.hpp
+        Spells/GreaterHeal.cpp
+        Spells/GreaterHeal.hpp
+        Spells/Heal.cpp
+        Spells/Heal.hpp
+        Spells/SummonDaemon.cpp
+        Spells/SummonDaemon.hpp
+        States/DaemonState.cpp
+        States/DaemonState.hpp
+        States/HumanWolfState.cpp
+        States/HumanWolfState.hpp
+        States/MageState.cpp
+        States/MageState.hpp
+        States/RogueState.cpp
+        States/RogueState.hpp
+        States/SoldierState.cpp
+        States/SoldierState.hpp
+        States/SourceState.cpp
+        States/SourceState.hpp
+        States/VampireState.cpp
+        States/VampireState.hpp
+        States/WarlockState.cpp
+        States/WarlockState.hpp
+        States/WereWolfState.cpp
+        States/WereWolfState.hpp
+        Units/Berserker.cpp
+        Units/Berserker.hpp
+        Units/Daemon.cpp
+        Units/Daemon.hpp
+        Units/Healer.cpp
+        Units/Healer.hpp
+        Units/Mage.cpp
+        Units/Mage.hpp
+        Units/Necromancer.cpp
+        Units/Necromancer.hpp
+        Units/Priest.cpp
+        Units/Priest.hpp
+        Units/Rogue.cpp
+        Units/Rogue.hpp
+        Units/Soldier.cpp
+        Units/Soldier.hpp
+        Units/Vampire.cpp
+        Units/Vampire.hpp
+        Units/Warlock.cpp
+        Units/Warlock.hpp
+        Units/Lycanthrope.cpp
+        Units/Lycanthrope.hpp
+        Weapons/BlackStaff.cpp
+        Weapons/BlackStaff.hpp
+        Weapons/Claws.cpp
+        Weapons/Claws.hpp
+        Weapons/Dagger.cpp
+        Weapons/Dagger.hpp
+        Weapons/Fists.cpp
+        Weapons/Fists.hpp
+        Weapons/SourceWeapon.cpp
+        Weapons/SourceWeapon.hpp
+        Weapons/Teeth.cpp
+        Weapons/Teeth.hpp
+        Weapons/VikingSword.cpp
+        Weapons/VikingSword.hpp
+        main.cpp Controller/ActionMageMeditation.hpp Controller/ActionRangeAttack.hpp Weapons/CrossBow.cpp Weapons/CrossBow.hpp Weapons/Bow.cpp Weapons/Bow.hpp Abilities/RangeAttack.cpp Abilities/RangeAttack.hpp Abilities/Mount.cpp Abilities/Mount.hpp Controller/ActionUseMount.hpp Weapons/Axe.cpp Weapons/Axe.hpp States/BerserkState.cpp States/BerserkState.hpp Controller/ActionSummonDaemon.hpp States/HealerState.cpp States/HealerState.hpp Interfaces/Attribute.hpp States/PriestState.cpp States/PriestState.hpp Controller/MakeWereWolf.cpp Controller/MakeWereWolf.hpp Interfaces/Observer.cpp Interfaces/Observer.hpp States/NecromancerState.cpp States/NecromancerState.hpp Interfaces/Beast.hpp Interfaces/Human.hpp Controller/ActionTransformation.hpp)
