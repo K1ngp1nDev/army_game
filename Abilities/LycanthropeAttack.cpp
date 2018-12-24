@@ -80,8 +80,5 @@ void LycanthropeAttack::mutation(AbstractUnit *attacker, AbstractUnit *victim) {
 	std::cout << victim->getState()->getName() << " was infected by *wolf!*" << std::endl;
 	
 	victim->setSpecialAbility(new Transformation(victim));
-//	victim->setAttribute(new Beast);
-//	BattleField::getInstance()->m_inventory.insert(std::make_pair("claws"
-//		,std::make_pair(new Claws(victim), new LycanthropeAttack(victim))));
-//	BattleField::getInstance()->markerOnBoard(victim);
+
 }

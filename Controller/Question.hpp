@@ -3,9 +3,6 @@
 #pragma once
 
 #include <iostream>
-//#include "Answer.hpp"
-//
-//class Answer;
 
 class Question { // ???
 	std::string m_content;
@@ -20,7 +17,6 @@ class Question { // ???
 
 	inline void ask() {
 		std::cout << m_content << std::endl;
-
 		std::cin >> m_key;
 	}
 

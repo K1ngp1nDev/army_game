@@ -25,8 +25,6 @@ void RogueAttack::makeAttack(AbstractUnit *attacker, AbstractUnit *attacked) {
 			std::cout << attacked->getState()->getName() << " is so far away." << std::endl;
 		}
 		if (attacked->getState()->getHp() == 0) {
-//			Observer::getInstance()->informObserver(attacked);
-//			Observer::getInstance()->informObservable(attacked);//victim is dead
 
 			BattleField::getInstance()->clearPointAndDelUnit(attacked);
 		}
@@ -42,7 +40,6 @@ void RogueAttack::makeCounterAttack(AbstractUnit *attacker, AbstractUnit *attack
 		attacked->takePhysicalDamage(attacker->getWeapon()->getDamage()/2);
 
 	if (attacked->getState()->getHp() == 0 ) {
-//		Observer::getInstance()->informObserver(attacked);
 
 		BattleField::getInstance()->clearPointAndDelUnit(attacked);
 	}

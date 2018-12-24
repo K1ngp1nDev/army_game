@@ -27,13 +27,10 @@ void NecromancerAttack::makeAttack(AbstractUnit *attacker, AbstractUnit *attacke
 			attacked->takePhysicalDamage(attacker->getWeapon()->getDamage());
 			
 			if ( attacked->getState()->getHp() == 0 ) {
-//				Observer::getInstance()->informObserver(attacked);
-//				Observer::getInstance()->informObservable(attacked);//victim is dead
-
+//
 				BattleField::getInstance()->clearPointAndDelUnit(attacked);
 				
 			} else {
-//				attacked->counterAttack(attacker);
 				makeCounterAttack(attacked,attacker);
 			}
 			
@@ -59,7 +56,6 @@ void NecromancerAttack::makeCounterAttack(AbstractUnit *attacker, AbstractUnit *
 		}
 		
 		if (attacked->getState()->getHp() == 0) {
-//			Observer::getInstance()->informObserver(attacked);
 			BattleField::getInstance()->clearPointAndDelUnit(attacked);
 		}
 	}

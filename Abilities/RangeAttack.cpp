@@ -8,11 +8,9 @@
 
 RangeAttack::RangeAttack(AbstractUnit* target)
 	: AbstractAttack() {
-
 }
 
 RangeAttack::~RangeAttack() {
-
 }
 
 void RangeAttack::makeAttack(AbstractUnit *attacker, AbstractUnit *attacked) {
@@ -25,9 +23,7 @@ void RangeAttack::makeAttack(AbstractUnit *attacker, AbstractUnit *attacked) {
 			attacked->takePhysicalDamage(attacker->getWeapon()->getDamage());
 
 			if ( attacked->getState()->getHp() == 0) {
-//				Observer::getInstance()->informObserver(attacked);//victim is dead
-//				Observer::getInstance()->informObservable(attacked);//victim is dead
-
+//
 				BattleField::getInstance()->clearPointAndDelUnit(attacked);
 			}
 		} else {

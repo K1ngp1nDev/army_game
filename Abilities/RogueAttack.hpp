@@ -2,9 +2,7 @@
 
 #pragma once
 
-//#include "../Interfaces/AbstractUnit.hpp"
 #include "../Interfaces/AbstractAttack.hpp"
-//class AbstractUnit;
 
 class RogueAttack : public AbstractAttack{
 	public:

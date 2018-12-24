@@ -392,33 +392,6 @@ Abilities/VampireAttack.cpp.s:
 	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Abilities/VampireAttack.cpp.s
 .PHONY : Abilities/VampireAttack.cpp.s
 
-Armour/Shield.obj: Armour/Shield.cpp.obj
-
-.PHONY : Armour/Shield.obj
-
-# target to build an object file
-Armour/Shield.cpp.obj:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Armour/Shield.cpp.obj
-.PHONY : Armour/Shield.cpp.obj
-
-Armour/Shield.i: Armour/Shield.cpp.i
-
-.PHONY : Armour/Shield.i
-
-# target to preprocess a source file
-Armour/Shield.cpp.i:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Armour/Shield.cpp.i
-.PHONY : Armour/Shield.cpp.i
-
-Armour/Shield.s: Armour/Shield.cpp.s
-
-.PHONY : Armour/Shield.s
-
-# target to generate assembly for a file
-Armour/Shield.cpp.s:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Armour/Shield.cpp.s
-.PHONY : Armour/Shield.cpp.s
-
 Controller/AnswerByHandFillAll.obj: Controller/AnswerByHandFillAll.cpp.obj
 
 .PHONY : Controller/AnswerByHandFillAll.obj
@@ -473,33 +446,6 @@ Controller/GamePlayInterface.cpp.s:
 	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Controller/GamePlayInterface.cpp.s
 .PHONY : Controller/GamePlayInterface.cpp.s
 
-Controller/MakeWereWolf.obj: Controller/MakeWereWolf.cpp.obj
-
-.PHONY : Controller/MakeWereWolf.obj
-
-# target to build an object file
-Controller/MakeWereWolf.cpp.obj:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Controller/MakeWereWolf.cpp.obj
-.PHONY : Controller/MakeWereWolf.cpp.obj
-
-Controller/MakeWereWolf.i: Controller/MakeWereWolf.cpp.i
-
-.PHONY : Controller/MakeWereWolf.i
-
-# target to preprocess a source file
-Controller/MakeWereWolf.cpp.i:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Controller/MakeWereWolf.cpp.i
-.PHONY : Controller/MakeWereWolf.cpp.i
-
-Controller/MakeWereWolf.s: Controller/MakeWereWolf.cpp.s
-
-.PHONY : Controller/MakeWereWolf.s
-
-# target to generate assembly for a file
-Controller/MakeWereWolf.cpp.s:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Controller/MakeWereWolf.cpp.s
-.PHONY : Controller/MakeWereWolf.cpp.s
-
 Controller/actionfactory.obj: Controller/actionfactory.cpp.obj
 
 .PHONY : Controller/actionfactory.obj
@@ -526,33 +472,6 @@ Controller/actionfactory.s: Controller/actionfactory.cpp.s
 Controller/actionfactory.cpp.s:
 	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Controller/actionfactory.cpp.s
 .PHONY : Controller/actionfactory.cpp.s
-
-Interfaces/AbstractAttack.obj: Interfaces/AbstractAttack.cpp.obj
-
-.PHONY : Interfaces/AbstractAttack.obj
-
-# target to build an object file
-Interfaces/AbstractAttack.cpp.obj:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Interfaces/AbstractAttack.cpp.obj
-.PHONY : Interfaces/AbstractAttack.cpp.obj
-
-Interfaces/AbstractAttack.i: Interfaces/AbstractAttack.cpp.i
-
-.PHONY : Interfaces/AbstractAttack.i
-
-# target to preprocess a source file
-Interfaces/AbstractAttack.cpp.i:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Interfaces/AbstractAttack.cpp.i
-.PHONY : Interfaces/AbstractAttack.cpp.i
-
-Interfaces/AbstractAttack.s: Interfaces/AbstractAttack.cpp.s
-
-.PHONY : Interfaces/AbstractAttack.s
-
-# target to generate assembly for a file
-Interfaces/AbstractAttack.cpp.s:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Interfaces/AbstractAttack.cpp.s
-.PHONY : Interfaces/AbstractAttack.cpp.s
 
 Interfaces/AbstractCaster.obj: Interfaces/AbstractCaster.cpp.obj
 
@@ -634,33 +553,6 @@ Interfaces/AbstractSpell.s: Interfaces/AbstractSpell.cpp.s
 Interfaces/AbstractSpell.cpp.s:
 	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Interfaces/AbstractSpell.cpp.s
 .PHONY : Interfaces/AbstractSpell.cpp.s
-
-Interfaces/AbstractState.obj: Interfaces/AbstractState.cpp.obj
-
-.PHONY : Interfaces/AbstractState.obj
-
-# target to build an object file
-Interfaces/AbstractState.cpp.obj:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Interfaces/AbstractState.cpp.obj
-.PHONY : Interfaces/AbstractState.cpp.obj
-
-Interfaces/AbstractState.i: Interfaces/AbstractState.cpp.i
-
-.PHONY : Interfaces/AbstractState.i
-
-# target to preprocess a source file
-Interfaces/AbstractState.cpp.i:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Interfaces/AbstractState.cpp.i
-.PHONY : Interfaces/AbstractState.cpp.i
-
-Interfaces/AbstractState.s: Interfaces/AbstractState.cpp.s
-
-.PHONY : Interfaces/AbstractState.s
-
-# target to generate assembly for a file
-Interfaces/AbstractState.cpp.s:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Interfaces/AbstractState.cpp.s
-.PHONY : Interfaces/AbstractState.cpp.s
 
 Interfaces/AbstractUnit.obj: Interfaces/AbstractUnit.cpp.obj
 
@@ -1916,24 +1808,15 @@ help:
 	@echo ... Abilities/VampireAttack.obj
 	@echo ... Abilities/VampireAttack.i
 	@echo ... Abilities/VampireAttack.s
-	@echo ... Armour/Shield.obj
-	@echo ... Armour/Shield.i
-	@echo ... Armour/Shield.s
 	@echo ... Controller/AnswerByHandFillAll.obj
 	@echo ... Controller/AnswerByHandFillAll.i
 	@echo ... Controller/AnswerByHandFillAll.s
 	@echo ... Controller/GamePlayInterface.obj
 	@echo ... Controller/GamePlayInterface.i
 	@echo ... Controller/GamePlayInterface.s
-	@echo ... Controller/MakeWereWolf.obj
-	@echo ... Controller/MakeWereWolf.i
-	@echo ... Controller/MakeWereWolf.s
 	@echo ... Controller/actionfactory.obj
 	@echo ... Controller/actionfactory.i
 	@echo ... Controller/actionfactory.s
-	@echo ... Interfaces/AbstractAttack.obj
-	@echo ... Interfaces/AbstractAttack.i
-	@echo ... Interfaces/AbstractAttack.s
 	@echo ... Interfaces/AbstractCaster.obj
 	@echo ... Interfaces/AbstractCaster.i
 	@echo ... Interfaces/AbstractCaster.s
@@ -1943,9 +1826,6 @@ help:
 	@echo ... Interfaces/AbstractSpell.obj
 	@echo ... Interfaces/AbstractSpell.i
 	@echo ... Interfaces/AbstractSpell.s
-	@echo ... Interfaces/AbstractState.obj
-	@echo ... Interfaces/AbstractState.i
-	@echo ... Interfaces/AbstractState.s
 	@echo ... Interfaces/AbstractUnit.obj
 	@echo ... Interfaces/AbstractUnit.i
 	@echo ... Interfaces/AbstractUnit.s

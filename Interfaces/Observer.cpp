@@ -26,7 +26,6 @@ void Observer::add(AbstractUnit *observer, AbstractUnit *observable) {
 }
 
 void Observer::informObserver(AbstractUnit* unit) {
-//	std::cout << "FLAG Observer.cpp" << std::endl;
 	std::map<AbstractUnit*, std::set<AbstractUnit*>>::const_iterator it = m_list_of_victims.begin();
 	
 	if ( !m_list_of_victims.empty() ) {
@@ -87,7 +86,6 @@ bool Observer::checkSoul(AbstractUnit* victim) const {
 	     it != m_list_of_victims.end(); it++) {
 
 		if ( it->second.count(victim) ) {
-			//victim already in list of souls
 			return false;
 		}
 

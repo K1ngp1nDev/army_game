@@ -1,7 +1,6 @@
 /*_Created_by_K1ngp1n_*/
 
 #include "Blast.hpp"
-//#include "../Units/WereWolf.hpp"
 #include "../Interfaces/AbstractState.hpp"
 #include "../Interfaces/BattleField.hpp"
 #include "../Interfaces/Observer.hpp"
@@ -32,11 +31,7 @@ void Blast::castSpell(AbstractUnit *target) {
 		target->takeMagicDamage(m_damage);
 	}
 	if (target->getState()->getHp() == 0) {
-//		Observer::getInstance()->informObserver(target);
-//		Observer::getInstance()->informObservable(target);//victim is dead
 
 		BattleField::getInstance()->clearPointAndDelUnit(target);
-
-//		target->informObservers();
 	}
 }

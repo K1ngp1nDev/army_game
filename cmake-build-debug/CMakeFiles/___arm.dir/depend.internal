@@ -196,9 +196,6 @@ CMakeFiles/___arm.dir/Abilities/VampireAttack.cpp.obj
  F:/___arm/Weapons/Fists.hpp
  F:/___arm/Weapons/Teeth.hpp
  F:/___arm/Weapons/VikingSword.hpp
-CMakeFiles/___arm.dir/Armour/Shield.cpp.obj
- F:/___arm/Armour/Shield.cpp
- F:/___arm/Armour/Shield.hpp
 CMakeFiles/___arm.dir/Controller/AnswerByHandFillAll.cpp.obj
  F:/___arm/Controller/Answer.hpp
  F:/___arm/Controller/AnswerByHandFillAll.cpp
@@ -215,8 +212,6 @@ CMakeFiles/___arm.dir/Controller/GamePlayInterface.cpp.obj
  F:/___arm/Interfaces/AbstractUnit.hpp
  F:/___arm/Interfaces/BattleField.hpp
  F:/___arm/Interfaces/Team.hpp
-CMakeFiles/___arm.dir/Controller/MakeWereWolf.cpp.obj
- F:/___arm/Controller/MakeWereWolf.cpp
 CMakeFiles/___arm.dir/Controller/actionfactory.cpp.obj
  ../Abilities/SpecialAbility.hpp
  ../Controller/Action.hpp
@@ -259,8 +254,6 @@ CMakeFiles/___arm.dir/Controller/actionfactory.cpp.obj
  F:/___arm/Weapons/Axe.hpp
  F:/___arm/Weapons/Fists.hpp
  F:/___arm/Weapons/VikingSword.hpp
-CMakeFiles/___arm.dir/Interfaces/AbstractAttack.cpp.obj
- F:/___arm/Interfaces/AbstractAttack.cpp
 CMakeFiles/___arm.dir/Interfaces/AbstractCaster.cpp.obj
  ../Abilities/SpecialAbility.hpp
  ../Interfaces/AbstractState.hpp
@@ -306,8 +299,6 @@ CMakeFiles/___arm.dir/Interfaces/AbstractSpell.cpp.obj
  F:/___arm/Interfaces/AbstractSpell.cpp
  F:/___arm/Interfaces/AbstractSpell.hpp
  F:/___arm/Interfaces/AbstractUnit.hpp
-CMakeFiles/___arm.dir/Interfaces/AbstractState.cpp.obj
- F:/___arm/Interfaces/AbstractState.cpp
 CMakeFiles/___arm.dir/Interfaces/AbstractUnit.cpp.obj
  ../Abilities/SpecialAbility.hpp
  F:/___arm/Controller/Action.hpp

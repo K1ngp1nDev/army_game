@@ -30,8 +30,6 @@ add_executable(___arm
         Abilities/VampireAttack.hpp
         Abilities/LycanthropeAttack.cpp
         Abilities/LycanthropeAttack.hpp
-        Armour/Shield.cpp
-        Armour/Shield.hpp
         Controller/Action.hpp
         Controller/actionfactory.cpp
         Controller/actionfactory.h
@@ -47,7 +45,6 @@ add_executable(___arm
         Exceptions/DaemonDoesNotExistException.hpp
         Exceptions/OutOfManaException.hpp
         Exceptions/UnitIsDeadException.hpp
-        Interfaces/AbstractAttack.cpp
         Interfaces/AbstractAttack.hpp
         Interfaces/AbstractCaster.cpp
         Interfaces/AbstractCaster.hpp
@@ -55,7 +52,6 @@ add_executable(___arm
         Interfaces/AbstractPhysician.hpp
         Interfaces/AbstractSpell.cpp
         Interfaces/AbstractSpell.hpp
-        Interfaces/AbstractState.cpp
         Interfaces/AbstractState.hpp
         Interfaces/AbstractUnit.cpp
         Interfaces/AbstractUnit.hpp
@@ -131,4 +127,4 @@ add_executable(___arm
         Weapons/Teeth.hpp
         Weapons/VikingSword.cpp
         Weapons/VikingSword.hpp
-        main.cpp Controller/ActionMageMeditation.hpp Controller/ActionRangeAttack.hpp Weapons/CrossBow.cpp Weapons/CrossBow.hpp Weapons/Bow.cpp Weapons/Bow.hpp Abilities/RangeAttack.cpp Abilities/RangeAttack.hpp Abilities/Mount.cpp Abilities/Mount.hpp Controller/ActionUseMount.hpp Weapons/Axe.cpp Weapons/Axe.hpp States/BerserkState.cpp States/BerserkState.hpp Controller/ActionSummonDaemon.hpp States/HealerState.cpp States/HealerState.hpp Interfaces/Attribute.hpp States/PriestState.cpp States/PriestState.hpp Controller/MakeWereWolf.cpp Controller/MakeWereWolf.hpp Interfaces/Observer.cpp Interfaces/Observer.hpp States/NecromancerState.cpp States/NecromancerState.hpp Interfaces/Beast.hpp Interfaces/Human.hpp Controller/ActionTransformation.hpp)
+        main.cpp Controller/ActionMageMeditation.hpp Controller/ActionRangeAttack.hpp Weapons/CrossBow.cpp Weapons/CrossBow.hpp Weapons/Bow.cpp Weapons/Bow.hpp Abilities/RangeAttack.cpp Abilities/RangeAttack.hpp Abilities/Mount.cpp Abilities/Mount.hpp Controller/ActionUseMount.hpp Weapons/Axe.cpp Weapons/Axe.hpp States/BerserkState.cpp States/BerserkState.hpp Controller/ActionSummonDaemon.hpp States/HealerState.cpp States/HealerState.hpp Interfaces/Attribute.hpp States/PriestState.cpp States/PriestState.hpp Interfaces/Observer.cpp Interfaces/Observer.hpp States/NecromancerState.cpp States/NecromancerState.hpp Interfaces/Beast.hpp Interfaces/Human.hpp Controller/ActionTransformation.hpp)

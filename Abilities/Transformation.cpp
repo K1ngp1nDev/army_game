@@ -24,8 +24,6 @@ void Transformation::specialAbilityActivate() {
 	std::cout << "Transform to ";
 	if ( !dynamic_cast<Beast*>(m_unit->getAttribute()) ) {
 
-//		std::map<std::string, std::string> m_list_of_names;
-//		std::map<std::string, std::pair<AbstractWeapon*,AbstractAttack*>> m_list_of_weapons;
 		
 		m_list_of_names.insert(std::make_pair("source", m_unit->getState()->getName()));
 		m_list_of_weapons.insert(std::make_pair("source", std::make_pair(m_unit->getWeapon(), m_unit->getAttack())));
@@ -39,11 +37,7 @@ void Transformation::specialAbilityActivate() {
 		std::cout << m_unit->getState()->getName() << " now" << std::endl;
 		BattleField::getInstance()->markerOnBoard(m_unit);
 	} else {
-//		std::map<std::string, std::set<AbstractUnit*>> m_werewolf_list;
 
-//		if ( m_werewolf_list.find("source")->second == m_unit ) {
-//			m_werewolf_list["source"].find(m_unit);
-			
 			m_unit->getState()->setName(m_list_of_names.find("source")->second);
 			std::cout << m_list_of_names.find("source")->second << std::endl;
 		
@@ -67,10 +61,8 @@ void Transformation::add(AbstractUnit *unit) {
 	if (!dynamic_cast<Beast*>(m_unit->getAttribute() )) {
 		
 		   /**source/alter 			name 					weapon				attack**/
- //	std::map<std::string, std::set<std::string, std::pair<AbstractWeapon*,AbstractAttack*>>> m_werewolf_list;
 		std::cout << "source add " << unit->getState()->getName() << std::endl;
-//		std::map<std::string, std::string> m_list_of_names;
-//		std::map<std::string, std::pair<AbstractWeapon*,AbstractAttack*>> m_list_of_weapons;
+//
 		m_list_of_names.insert(std::make_pair("source", m_unit->getState()->getName()));
 		m_list_of_weapons.insert(std::make_pair("source", std::make_pair(m_unit->getWeapon(), m_unit->getAttack())));
 	} else {

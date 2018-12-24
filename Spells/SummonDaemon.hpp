@@ -10,7 +10,6 @@ class Daemon;
 class Warlock;
 
 class SummonDaemon : public AbstractSpell{
-//	Warlock* mm_owner;
 	public:
 	SummonDaemon(const std::string name="Summon_Daemon", int cost=80, int points=0, int range=1);
 	~SummonDaemon() override ;

@@ -4,13 +4,10 @@
 
 #include "../Interfaces/AbstractAttack.hpp"
 #include "../States/WereWolfState.hpp"
-//#include <time.h>
-//#include <stdlib.h>
 
 class WereWolfState;
 
 class LycanthropeAttack : public AbstractAttack {
-//	WereWolfState *wolf_state;
 	public:
 	LycanthropeAttack(AbstractUnit* target);
 	~LycanthropeAttack() override ;

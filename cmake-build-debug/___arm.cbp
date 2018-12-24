@@ -158,12 +158,6 @@
 		<Unit filename="F:/___arm/Abilities/VampireAttack.hpp">
 			<Option target="___arm"/>
 		</Unit>
-		<Unit filename="F:/___arm/Armour/Shield.cpp">
-			<Option target="___arm"/>
-		</Unit>
-		<Unit filename="F:/___arm/Armour/Shield.hpp">
-			<Option target="___arm"/>
-		</Unit>
 		<Unit filename="F:/___arm/Controller/Action.hpp">
 			<Option target="___arm"/>
 		</Unit>
@@ -206,12 +200,6 @@
 		<Unit filename="F:/___arm/Controller/GamePlayInterface.hpp">
 			<Option target="___arm"/>
 		</Unit>
-		<Unit filename="F:/___arm/Controller/MakeWereWolf.cpp">
-			<Option target="___arm"/>
-		</Unit>
-		<Unit filename="F:/___arm/Controller/MakeWereWolf.hpp">
-			<Option target="___arm"/>
-		</Unit>
 		<Unit filename="F:/___arm/Controller/Question.hpp">
 			<Option target="___arm"/>
 		</Unit>
@@ -228,9 +216,6 @@
 			<Option target="___arm"/>
 		</Unit>
 		<Unit filename="F:/___arm/Exceptions/UnitIsDeadException.hpp">
-			<Option target="___arm"/>
-		</Unit>
-		<Unit filename="F:/___arm/Interfaces/AbstractAttack.cpp">
 			<Option target="___arm"/>
 		</Unit>
 		<Unit filename="F:/___arm/Interfaces/AbstractAttack.hpp">
@@ -252,9 +237,6 @@
 			<Option target="___arm"/>
 		</Unit>
 		<Unit filename="F:/___arm/Interfaces/AbstractSpell.hpp">
-			<Option target="___arm"/>
-		</Unit>
-		<Unit filename="F:/___arm/Interfaces/AbstractState.cpp">
 			<Option target="___arm"/>
 		</Unit>
 		<Unit filename="F:/___arm/Interfaces/AbstractState.hpp">

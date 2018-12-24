@@ -13,12 +13,7 @@ SummonDaemon::~SummonDaemon() {
 
 void SummonDaemon::castSpell(AbstractUnit *master) {
 	Warlock* warlock = static_cast<Warlock*>(master);
-	
-//		if ( warlock->getDaemon() != nullptr ) {
-//			std::cout << "flag summondaemon daemon true" << std::endl;
-//			BattleField::getInstance()->clearPointAndDelUnit(warlock->getDaemon());
-//			warlock->setDemon(nullptr);
-//		}
+
 		warlock->setDemon(new Daemon(warlock));
 	
 	Daemon* daemon = warlock->getDaemon();

@@ -52,22 +52,7 @@ class AbstractUnit {
 	
 	virtual void isAlive();
 
-//	virtual void addHits(int hits);
-//	const std::set<AbstractUnit*>& getObservers() const;
-//	const std::set<AbstractUnit*>& getObservables() const;
 
-//	virtual void addObserver(AbstractUnit* observer);
-//	virtual void removeObserver(AbstractUnit* observer);
-//	virtual void addObservable(AbstractUnit* observable);
-//	virtual void removeObservable(AbstractUnit* observable);
-
-//	virtual void informObservers();
-//	virtual void informObservables();
 };
-
-
-
-//std::ostream& operator<<(std::ostream& out, const AbstractUnit& unit);
-
 
 

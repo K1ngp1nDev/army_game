@@ -5,7 +5,6 @@
 #include <iostream>
 #include "AbstractUnit.hpp"
 
-//class AbstractCaster;
 class AbstractUnit;
 
 class AbstractSpell {

@@ -28,7 +28,6 @@ bool AbstractWeapon::compare(AbstractUnit* holder) const {
 	if ( ( getWeight() <= holder->getState()->getStrenght())
 	     && ( getAgility() <= holder->getState()->getDexterity())
 	     && ( getMind() <= holder->getState()->getIntelligence()) ) {
-//		std::cout << "remand true" << std::endl;
 		return true;
 	} else {
 		std::cout << holder->getState()->getName() << " can't hold this m_weapon" << std::endl;

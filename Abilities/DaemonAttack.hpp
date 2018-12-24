@@ -2,15 +2,12 @@
 
 #pragma once
 
-//#include "../Interfaces/AbstractUnit.hpp"
 #include "../Interfaces/AbstractAttack.hpp"
 #include "../Units/Warlock.hpp"
 
 class Warlock;
-//class AbstractUnit;
 
 class DaemonAttack : public AbstractAttack {
-	AbstractUnit* m_unit;
 	Warlock* w_owner;
 	public:
 	DaemonAttack(AbstractUnit* _target, Warlock* own);

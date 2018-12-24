@@ -9,8 +9,6 @@ class BattleField;
 class AbstractUnit;
 
 class AbstractAttack {
-//	protected:
-//	AbstractUnit* u_target;
 	public:
 	AbstractAttack() {}
 	virtual ~AbstractAttack() {}

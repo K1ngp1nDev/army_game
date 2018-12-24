@@ -196,9 +196,6 @@ CMakeFiles/___arm.dir/Abilities/VampireAttack.cpp.obj: ../Weapons/Fists.hpp
 CMakeFiles/___arm.dir/Abilities/VampireAttack.cpp.obj: ../Weapons/Teeth.hpp
 CMakeFiles/___arm.dir/Abilities/VampireAttack.cpp.obj: ../Weapons/VikingSword.hpp
 
-CMakeFiles/___arm.dir/Armour/Shield.cpp.obj: ../Armour/Shield.cpp
-CMakeFiles/___arm.dir/Armour/Shield.cpp.obj: ../Armour/Shield.hpp
-
 CMakeFiles/___arm.dir/Controller/AnswerByHandFillAll.cpp.obj: ../Controller/Answer.hpp
 CMakeFiles/___arm.dir/Controller/AnswerByHandFillAll.cpp.obj: ../Controller/AnswerByHandFillAll.cpp
 CMakeFiles/___arm.dir/Controller/AnswerByHandFillAll.cpp.obj: ../Controller/AnswerByHandFillAll.hpp
@@ -214,8 +211,6 @@ CMakeFiles/___arm.dir/Controller/GamePlayInterface.cpp.obj: ../Interfaces/Abstra
 CMakeFiles/___arm.dir/Controller/GamePlayInterface.cpp.obj: ../Interfaces/AbstractUnit.hpp
 CMakeFiles/___arm.dir/Controller/GamePlayInterface.cpp.obj: ../Interfaces/BattleField.hpp
 CMakeFiles/___arm.dir/Controller/GamePlayInterface.cpp.obj: ../Interfaces/Team.hpp
-
-CMakeFiles/___arm.dir/Controller/MakeWereWolf.cpp.obj: ../Controller/MakeWereWolf.cpp
 
 CMakeFiles/___arm.dir/Controller/actionfactory.cpp.obj: ../Abilities/SpecialAbility.hpp
 CMakeFiles/___arm.dir/Controller/actionfactory.cpp.obj: ../Controller/Action.hpp
@@ -258,8 +253,6 @@ CMakeFiles/___arm.dir/Controller/actionfactory.cpp.obj: ../Units/Warlock.hpp
 CMakeFiles/___arm.dir/Controller/actionfactory.cpp.obj: ../Weapons/Axe.hpp
 CMakeFiles/___arm.dir/Controller/actionfactory.cpp.obj: ../Weapons/Fists.hpp
 CMakeFiles/___arm.dir/Controller/actionfactory.cpp.obj: ../Weapons/VikingSword.hpp
-
-CMakeFiles/___arm.dir/Interfaces/AbstractAttack.cpp.obj: ../Interfaces/AbstractAttack.cpp
 
 CMakeFiles/___arm.dir/Interfaces/AbstractCaster.cpp.obj: ../Abilities/SpecialAbility.hpp
 CMakeFiles/___arm.dir/Interfaces/AbstractCaster.cpp.obj: ../Interfaces/AbstractState.hpp
@@ -305,8 +298,6 @@ CMakeFiles/___arm.dir/Interfaces/AbstractPhysician.cpp.obj: ../States/MageState.
 CMakeFiles/___arm.dir/Interfaces/AbstractSpell.cpp.obj: ../Interfaces/AbstractSpell.cpp
 CMakeFiles/___arm.dir/Interfaces/AbstractSpell.cpp.obj: ../Interfaces/AbstractSpell.hpp
 CMakeFiles/___arm.dir/Interfaces/AbstractSpell.cpp.obj: ../Interfaces/AbstractUnit.hpp
-
-CMakeFiles/___arm.dir/Interfaces/AbstractState.cpp.obj: ../Interfaces/AbstractState.cpp
 
 CMakeFiles/___arm.dir/Interfaces/AbstractUnit.cpp.obj: ../Abilities/SpecialAbility.hpp
 CMakeFiles/___arm.dir/Interfaces/AbstractUnit.cpp.obj: ../Controller/Action.hpp

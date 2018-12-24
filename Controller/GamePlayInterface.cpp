@@ -25,7 +25,6 @@ bool onChoiceAnsweredSelectTeam(int answer) {
 		BattleField::getInstance()->getTeam()->showUnitsOnField(0);
 		return true;
 	} else if ( answer == 1 ) {
-//		BattleField::getInstance()->getTeam()->randomFillUnitsOnBoard(); // by hand
 		BattleField::getInstance()->getTeam()->showUnitsOnField(1);
 		return true;
 	} else if ( answer == 2 ) {

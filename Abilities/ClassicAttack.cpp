@@ -1,6 +1,5 @@
 /*_Created_by_K1ngp1n_*/
 
-//#include <AbstractWeapon.hpp>
 #include "ClassicAttack.hpp"
 #include "../Interfaces/AbstractWeapon.hpp"
 #include "../Interfaces/AbstractState.hpp"
@@ -23,12 +22,8 @@ void ClassicAttack::makeAttack(AbstractUnit *attacker, AbstractUnit *attacked) {
 			attacked->takePhysicalDamage(attacker->getWeapon()->getDamage());
 
 			if (attacked->getState()->getHp() > 0) {
-//				makeCounterAttack(attacked,attacker);
 				attacked->counterAttack(attacker);
 			} else {
-//				Observer::getInstance()->informObserver(attacked);//victim is dead
-//				Observer::getInstance()->informObservable(attacked);//victim is dead
-
 				BattleField::getInstance()->clearPointAndDelUnit(attacked);
 			}
 		} else {
@@ -43,11 +38,8 @@ void ClassicAttack::makeCounterAttack(AbstractUnit *attacker, AbstractUnit *atta
 	if (BattleField::getInstance()->checkWeaponDistance(attacker, attacked)) {
 		std::cout << attacker->getState()->getName() << " counter attack " << attacked->getState()->getName()
 		          << " with a " << attacker->getWeapon()->getTitle() << std::endl;
-//		attacker->counterAttack(attacked);
 		attacked->takePhysicalDamage(attacker->getWeapon()->getDamage() / 2);
 		if (attacked->getState()->getHp() == 0) {
-//			Observer::getInstance()->informObserver(attacked);//victim is dead
-//			Observer::getInstance()->informObservable(attacked);//victim is dead
 
 			BattleField::getInstance()->clearPointAndDelUnit(attacked);
 		}

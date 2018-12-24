@@ -34,10 +34,6 @@ class AbstractWeapon {
 
 		virtual void showDemands() const ;
 		virtual bool compare(AbstractUnit* holder) const;
-//		virtual int calculateDamage(AbstractUnit *holder) = 0;
-//	virtual	void changeWeapon(AbstractWeapon*newWeapon);
-//	virtual	void dropWeapon();
-
 };
 
 std::ostream& operator<<(std::ostream& out, const AbstractWeapon& weapon);

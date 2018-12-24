@@ -9,7 +9,6 @@
 #include "Attribute.hpp"
 #include "Observer.hpp"
 #include <memory>
-//#include "Mount.hpp"
 
 AbstractUnit::AbstractUnit(AbstractState* state)
 	: m_abstractState(state)
@@ -25,17 +24,8 @@ AbstractUnit::AbstractUnit(AbstractState* state)
 AbstractUnit::~AbstractUnit() {}
 
 std::set<EActionType> AbstractUnit::availableActions() {
-//    std::set<EActionType> actions{EActionType::MeleeAttack, EActionType::Move};
 	    std::set<EActionType> actions;
-	
-//	actions.insert(EActionType::MeleeAttack);
-//	actions.insert(EActionType::Move);
 
-//    if (m_special_ability) {
-//        for (EActionType actionType: m_special_ability->availableActions()) {
-//            actions.insert(actionType);
-//        }
-//    }
     return actions;
 }
 
