@@ -90,12 +90,12 @@ void AbstractUnit::counterAttack(AbstractUnit *enemy) {
 		}
 	}
 
-void AbstractUnit::isAlive() {
-	if (getState()->getHp() <= 0 ) {
-		BattleField::getInstance()->clearPointAndDelUnit(this);
-		std::cout << getState()->getName() << " is dead" << std::endl;
-	}
-}
+//void AbstractUnit::isAlive() {
+//	if (getState()->getHp() <= 0 ) {
+//		BattleField::getInstance()->clearPointAndDelUnit(this);
+//		std::cout << getState()->getName() << " is dead" << std::endl;
+//	}
+//}
 
 void AbstractUnit::takePhysicalDamage(int damage) {
 	if ( (m_abstractState->getHp() - damage) < 0 ) {

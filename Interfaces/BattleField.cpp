@@ -2043,10 +2043,8 @@ void BattleField::actionOfSelectedUnit(int answer) {
 				}
 				m_available_spells.insert(std::make_pair((int) spellPair.first, spellPair.second));
 			}
-			
 			////////////////////////////////////////////////////////////////////////////////////
 			key = askSomeQuestion1(question, &spell_check);
-			
 			
 			for ( const std::pair<Spell, AbstractSpell *> &spellPair : physician->_getHealerSpellBook()) {
 				if (key == (int) spellPair.first) {
@@ -2060,7 +2058,6 @@ void BattleField::actionOfSelectedUnit(int answer) {
 						m_available_targets.clear();
 						scanAvailableDistanceEnemies(physician, spellPair.second->getRange());
 					}
-					
 					std::cout << spellPair.second->getSpellName() << " selected.\n\n" << std::endl;
 				}
 			}
@@ -2254,7 +2251,6 @@ void BattleField::actionOfSelectedUnit(int answer) {
 				std::cout << "0. Random target." << std::endl;
 			}
 			std::cout << "99. Skip." << std::endl;
-			
 			key = askSomeQuestion1(question, &target_check);
 			
 			if ( m_available_targets.count(2) ) {
@@ -2264,12 +2260,9 @@ void BattleField::actionOfSelectedUnit(int answer) {
 					for ( std::multimap<int, AbstractUnit *>::const_iterator it = m_available_targets.begin();
 					      it != m_available_targets.end(); it++, quant++ );
 					quant -= 3; // self point && rand key 99 minus && last quant++ in for(;;)
-					
 					key = rand() % quant + 1;
-					
 					_cast->setTarget(m_available_targets.find(key)->second);
 					_cast->execute();
-					
 				} else if ( key == 99 ) {
 					_cast->execute();
 				} else {
@@ -2284,11 +2277,9 @@ void BattleField::actionOfSelectedUnit(int answer) {
 				_cast->execute();
 			}
 		}
-		
 	} else if (ActionMageMeditation *_meditation = dynamic_cast<ActionMageMeditation *>(m_actions.find(answer)
 		->second)) {
 		AbstractCaster *caster = static_cast<AbstractCaster *>(m_unit);
-//
 		_meditation->setSpellCaster(caster);
 		if ( caster->getMageState()->getMana() < caster->getMageState()->getManaLimit() ) {
 			_meditation->execute();
@@ -2296,15 +2287,12 @@ void BattleField::actionOfSelectedUnit(int answer) {
 			std::cout << "Your mana is full." << std::endl;
 			_meditation->execute();
 		}
-
 	} else if (ActionRangeAttack *_rangeAttack = dynamic_cast<ActionRangeAttack *>(m_actions.find(answer)->second)) {
-
 		_rangeAttack->setArcher(m_unit);
 	if ( !dynamic_cast<Beast*>(m_unit->getAttribute()) ) {
 		
 		if ( Soldier* soldier = dynamic_cast<Soldier*>(m_unit)) {
 			if ( checkWeaponMeleeRange(soldier->getWeapon()) ) {
-				
 				std::cout << soldier->getState()->getName() << " take up a " << m_inventory.find("crossbow")
 					->second.first->getTitle() << std::endl;
 				soldier->setWeapon(m_inventory.find("crossbow")->second.first);
@@ -2314,10 +2302,7 @@ void BattleField::actionOfSelectedUnit(int answer) {
 			_rangeAttack->reloadWeapon();
 			
 		} else if ( Rogue* rogue = dynamic_cast<Rogue*>(m_unit)) {
-			
-			
 			if ( checkWeaponMeleeRange(rogue->getWeapon()) ) {
-				
 				std::cout << rogue->getState()->getName() << " take up a " << m_inventory.find("bow")
 					->second.first->getTitle() << std::endl;
 				rogue->setWeapon(m_inventory.find("bow")->second.first);
@@ -2333,11 +2318,8 @@ void BattleField::actionOfSelectedUnit(int answer) {
 		
 		if ( !m_available_targets.count(1) ) {
 			std::cout << "No one to attack." << std::endl;
-			
 			markerOnBoard(m_unit);
-			
 		} else {
-			
 			question = "      Select target: \n";
 			
 			for ( std::multimap<int, AbstractUnit *>::const_iterator it = m_available_targets.begin();

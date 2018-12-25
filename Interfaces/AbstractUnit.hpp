@@ -50,8 +50,7 @@ class AbstractUnit {
 	virtual Attribute *getAttribute() const;
 	virtual void setAttribute(Attribute *newAttribute);
 	
-	virtual void isAlive();
-
+//	virtual void isAlive();
 
 };
 
