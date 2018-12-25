@@ -20,9 +20,7 @@ SoldierState::SoldierState()
 	, intelligence(10)
 	, hpLimit(strenght*8.5)
 	, hp(hpLimit)
-//	, dmg(strenght*0.65)
 	, step(1)
-//	, range(1)
 {}
 
 SoldierState::~SoldierState()
@@ -35,11 +33,6 @@ int SoldierState::getHpLimit() const {
 int SoldierState::getHp() const {
 	return this->hp;
 }
-
-//double SoldierState::getDamage() const {
-//
-//	return this->dmg;
-//}
 
 const std::string SoldierState::getName() const {
 	return this->name;
@@ -61,10 +54,6 @@ int SoldierState::getStep() const {
 	return this->step;
 }
 
-//int SoldierState::getRange() const {
-//	return this->range;
-//}
-
 void SoldierState::setHpLimit(int hitPointsLimit) {
 	if ( this->hpLimit != hitPointsLimit ) {
 		this->hpLimit = hitPointsLimit;
@@ -76,12 +65,6 @@ void SoldierState::setHp(int hitPoints) {
 		this->hp = hitPoints;
 	}
 }
-
-//void SoldierState::setDamage(double damage) {
-//	if ( this->dmg != damage ) {
-//		this->dmg = damage;
-//	}
-//}
 
 void SoldierState::setName(const std::string newName) {
 	if ( this->name != newName ) {
@@ -102,7 +85,6 @@ void SoldierState::setStrenght(int newStrenght) {
 			setHpLimit(getStrenght()*8.5);
 			setHp(getHpLimit());
 		}
-//		setDamage(getStrenght()*0.65);
 	}
 }
 
@@ -123,17 +105,3 @@ void SoldierState::setStep(int newStep) {
 		this->step = newStep;
 	}
 }
-
-//void SoldierState::setRange(int newRange) {
-//	if ( this->range != newRange)  {
-//		this->range = newRange;
-//	}
-//}
-
-//void SoldierState::calculateDamage(int str) {
-//	setDamage(getStrenght()*0.25);
-//}
-//
-//void SoldierState::calculateHpLimit(int str) {
-//	setHpLimit(getStrenght()*3.5);
-//}

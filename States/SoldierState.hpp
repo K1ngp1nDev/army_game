@@ -17,7 +17,7 @@ class SoldierState : public AbstractState{
 	SoldierState(std::string name, int strenght, int dexterity, int intelligence);
 	public:
 	SoldierState();
-	 ~SoldierState() override;
+	 virtual ~SoldierState() override;
 
 	int getHpLimit() const override;
 	int getHp() const override;

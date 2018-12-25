@@ -448,24 +448,10 @@ CMakeFiles/___arm.dir/States/SoldierState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/___arm.dir/States/SoldierState.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\___arm\States\SoldierState.cpp -o CMakeFiles\___arm.dir\States\SoldierState.cpp.s
 
-CMakeFiles/___arm.dir/States/SourceState.cpp.obj: CMakeFiles/___arm.dir/flags.make
-CMakeFiles/___arm.dir/States/SourceState.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
-CMakeFiles/___arm.dir/States/SourceState.cpp.obj: ../States/SourceState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/___arm.dir/States/SourceState.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\States\SourceState.cpp.obj -c F:\___arm\States\SourceState.cpp
-
-CMakeFiles/___arm.dir/States/SourceState.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/___arm.dir/States/SourceState.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\___arm\States\SourceState.cpp > CMakeFiles\___arm.dir\States\SourceState.cpp.i
-
-CMakeFiles/___arm.dir/States/SourceState.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/___arm.dir/States/SourceState.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\___arm\States\SourceState.cpp -o CMakeFiles\___arm.dir\States\SourceState.cpp.s
-
 CMakeFiles/___arm.dir/States/VampireState.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/States/VampireState.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/States/VampireState.cpp.obj: ../States/VampireState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/___arm.dir/States/VampireState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/___arm.dir/States/VampireState.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\States\VampireState.cpp.obj -c F:\___arm\States\VampireState.cpp
 
 CMakeFiles/___arm.dir/States/VampireState.cpp.i: cmake_force
@@ -479,7 +465,7 @@ CMakeFiles/___arm.dir/States/VampireState.cpp.s: cmake_force
 CMakeFiles/___arm.dir/States/WarlockState.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/States/WarlockState.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/States/WarlockState.cpp.obj: ../States/WarlockState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/___arm.dir/States/WarlockState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/___arm.dir/States/WarlockState.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\States\WarlockState.cpp.obj -c F:\___arm\States\WarlockState.cpp
 
 CMakeFiles/___arm.dir/States/WarlockState.cpp.i: cmake_force
@@ -490,24 +476,10 @@ CMakeFiles/___arm.dir/States/WarlockState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/___arm.dir/States/WarlockState.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\___arm\States\WarlockState.cpp -o CMakeFiles\___arm.dir\States\WarlockState.cpp.s
 
-CMakeFiles/___arm.dir/States/WereWolfState.cpp.obj: CMakeFiles/___arm.dir/flags.make
-CMakeFiles/___arm.dir/States/WereWolfState.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
-CMakeFiles/___arm.dir/States/WereWolfState.cpp.obj: ../States/WereWolfState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/___arm.dir/States/WereWolfState.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\States\WereWolfState.cpp.obj -c F:\___arm\States\WereWolfState.cpp
-
-CMakeFiles/___arm.dir/States/WereWolfState.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/___arm.dir/States/WereWolfState.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\___arm\States\WereWolfState.cpp > CMakeFiles\___arm.dir\States\WereWolfState.cpp.i
-
-CMakeFiles/___arm.dir/States/WereWolfState.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/___arm.dir/States/WereWolfState.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\___arm\States\WereWolfState.cpp -o CMakeFiles\___arm.dir\States\WereWolfState.cpp.s
-
 CMakeFiles/___arm.dir/Units/Berserker.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Units/Berserker.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Units/Berserker.cpp.obj: ../Units/Berserker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/___arm.dir/Units/Berserker.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/___arm.dir/Units/Berserker.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Units\Berserker.cpp.obj -c F:\___arm\Units\Berserker.cpp
 
 CMakeFiles/___arm.dir/Units/Berserker.cpp.i: cmake_force
@@ -521,7 +493,7 @@ CMakeFiles/___arm.dir/Units/Berserker.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Units/Daemon.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Units/Daemon.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Units/Daemon.cpp.obj: ../Units/Daemon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/___arm.dir/Units/Daemon.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/___arm.dir/Units/Daemon.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Units\Daemon.cpp.obj -c F:\___arm\Units\Daemon.cpp
 
 CMakeFiles/___arm.dir/Units/Daemon.cpp.i: cmake_force
@@ -535,7 +507,7 @@ CMakeFiles/___arm.dir/Units/Daemon.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Units/Healer.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Units/Healer.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Units/Healer.cpp.obj: ../Units/Healer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/___arm.dir/Units/Healer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/___arm.dir/Units/Healer.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Units\Healer.cpp.obj -c F:\___arm\Units\Healer.cpp
 
 CMakeFiles/___arm.dir/Units/Healer.cpp.i: cmake_force
@@ -549,7 +521,7 @@ CMakeFiles/___arm.dir/Units/Healer.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../Units/Mage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/___arm.dir/Units/Mage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/___arm.dir/Units/Mage.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Units\Mage.cpp.obj -c F:\___arm\Units\Mage.cpp
 
 CMakeFiles/___arm.dir/Units/Mage.cpp.i: cmake_force
@@ -563,7 +535,7 @@ CMakeFiles/___arm.dir/Units/Mage.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj: ../Units/Necromancer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Units\Necromancer.cpp.obj -c F:\___arm\Units\Necromancer.cpp
 
 CMakeFiles/___arm.dir/Units/Necromancer.cpp.i: cmake_force
@@ -577,7 +549,7 @@ CMakeFiles/___arm.dir/Units/Necromancer.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Units/Priest.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Units/Priest.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Units/Priest.cpp.obj: ../Units/Priest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/___arm.dir/Units/Priest.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/___arm.dir/Units/Priest.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Units\Priest.cpp.obj -c F:\___arm\Units\Priest.cpp
 
 CMakeFiles/___arm.dir/Units/Priest.cpp.i: cmake_force
@@ -591,7 +563,7 @@ CMakeFiles/___arm.dir/Units/Priest.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Units/Rogue.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Units/Rogue.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Units/Rogue.cpp.obj: ../Units/Rogue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/___arm.dir/Units/Rogue.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/___arm.dir/Units/Rogue.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Units\Rogue.cpp.obj -c F:\___arm\Units\Rogue.cpp
 
 CMakeFiles/___arm.dir/Units/Rogue.cpp.i: cmake_force
@@ -605,7 +577,7 @@ CMakeFiles/___arm.dir/Units/Rogue.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Units/Soldier.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Units/Soldier.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Units/Soldier.cpp.obj: ../Units/Soldier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/___arm.dir/Units/Soldier.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/___arm.dir/Units/Soldier.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Units\Soldier.cpp.obj -c F:\___arm\Units\Soldier.cpp
 
 CMakeFiles/___arm.dir/Units/Soldier.cpp.i: cmake_force
@@ -619,7 +591,7 @@ CMakeFiles/___arm.dir/Units/Soldier.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Units/Vampire.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Units/Vampire.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Units/Vampire.cpp.obj: ../Units/Vampire.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/___arm.dir/Units/Vampire.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/___arm.dir/Units/Vampire.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Units\Vampire.cpp.obj -c F:\___arm\Units\Vampire.cpp
 
 CMakeFiles/___arm.dir/Units/Vampire.cpp.i: cmake_force
@@ -633,7 +605,7 @@ CMakeFiles/___arm.dir/Units/Vampire.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Units/Warlock.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Units/Warlock.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Units/Warlock.cpp.obj: ../Units/Warlock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/___arm.dir/Units/Warlock.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/___arm.dir/Units/Warlock.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Units\Warlock.cpp.obj -c F:\___arm\Units\Warlock.cpp
 
 CMakeFiles/___arm.dir/Units/Warlock.cpp.i: cmake_force
@@ -644,24 +616,10 @@ CMakeFiles/___arm.dir/Units/Warlock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/___arm.dir/Units/Warlock.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\___arm\Units\Warlock.cpp -o CMakeFiles\___arm.dir\Units\Warlock.cpp.s
 
-CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj: CMakeFiles/___arm.dir/flags.make
-CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
-CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj: ../Units/Lycanthrope.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Units\Lycanthrope.cpp.obj -c F:\___arm\Units\Lycanthrope.cpp
-
-CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\___arm\Units\Lycanthrope.cpp > CMakeFiles\___arm.dir\Units\Lycanthrope.cpp.i
-
-CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\___arm\Units\Lycanthrope.cpp -o CMakeFiles\___arm.dir\Units\Lycanthrope.cpp.s
-
 CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.obj: ../Weapons/BlackStaff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Weapons\BlackStaff.cpp.obj -c F:\___arm\Weapons\BlackStaff.cpp
 
 CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.i: cmake_force
@@ -675,7 +633,7 @@ CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Weapons/Claws.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Weapons/Claws.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Weapons/Claws.cpp.obj: ../Weapons/Claws.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/___arm.dir/Weapons/Claws.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/___arm.dir/Weapons/Claws.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Weapons\Claws.cpp.obj -c F:\___arm\Weapons\Claws.cpp
 
 CMakeFiles/___arm.dir/Weapons/Claws.cpp.i: cmake_force
@@ -689,7 +647,7 @@ CMakeFiles/___arm.dir/Weapons/Claws.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Weapons/Dagger.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Weapons/Dagger.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Weapons/Dagger.cpp.obj: ../Weapons/Dagger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/___arm.dir/Weapons/Dagger.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/___arm.dir/Weapons/Dagger.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Weapons\Dagger.cpp.obj -c F:\___arm\Weapons\Dagger.cpp
 
 CMakeFiles/___arm.dir/Weapons/Dagger.cpp.i: cmake_force
@@ -703,7 +661,7 @@ CMakeFiles/___arm.dir/Weapons/Dagger.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Weapons/Fists.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Weapons/Fists.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Weapons/Fists.cpp.obj: ../Weapons/Fists.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/___arm.dir/Weapons/Fists.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/___arm.dir/Weapons/Fists.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Weapons\Fists.cpp.obj -c F:\___arm\Weapons\Fists.cpp
 
 CMakeFiles/___arm.dir/Weapons/Fists.cpp.i: cmake_force
@@ -714,24 +672,10 @@ CMakeFiles/___arm.dir/Weapons/Fists.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/___arm.dir/Weapons/Fists.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\___arm\Weapons\Fists.cpp -o CMakeFiles\___arm.dir\Weapons\Fists.cpp.s
 
-CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.obj: CMakeFiles/___arm.dir/flags.make
-CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
-CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.obj: ../Weapons/SourceWeapon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Weapons\SourceWeapon.cpp.obj -c F:\___arm\Weapons\SourceWeapon.cpp
-
-CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\___arm\Weapons\SourceWeapon.cpp > CMakeFiles\___arm.dir\Weapons\SourceWeapon.cpp.i
-
-CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\___arm\Weapons\SourceWeapon.cpp -o CMakeFiles\___arm.dir\Weapons\SourceWeapon.cpp.s
-
 CMakeFiles/___arm.dir/Weapons/Teeth.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Weapons/Teeth.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Weapons/Teeth.cpp.obj: ../Weapons/Teeth.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/___arm.dir/Weapons/Teeth.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/___arm.dir/Weapons/Teeth.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Weapons\Teeth.cpp.obj -c F:\___arm\Weapons\Teeth.cpp
 
 CMakeFiles/___arm.dir/Weapons/Teeth.cpp.i: cmake_force
@@ -745,7 +689,7 @@ CMakeFiles/___arm.dir/Weapons/Teeth.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Weapons/VikingSword.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Weapons/VikingSword.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Weapons/VikingSword.cpp.obj: ../Weapons/VikingSword.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/___arm.dir/Weapons/VikingSword.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/___arm.dir/Weapons/VikingSword.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Weapons\VikingSword.cpp.obj -c F:\___arm\Weapons\VikingSword.cpp
 
 CMakeFiles/___arm.dir/Weapons/VikingSword.cpp.i: cmake_force
@@ -759,7 +703,7 @@ CMakeFiles/___arm.dir/Weapons/VikingSword.cpp.s: cmake_force
 CMakeFiles/___arm.dir/main.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/main.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/___arm.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/___arm.dir/main.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\main.cpp.obj -c F:\___arm\main.cpp
 
 CMakeFiles/___arm.dir/main.cpp.i: cmake_force
@@ -773,7 +717,7 @@ CMakeFiles/___arm.dir/main.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Weapons/CrossBow.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Weapons/CrossBow.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Weapons/CrossBow.cpp.obj: ../Weapons/CrossBow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/___arm.dir/Weapons/CrossBow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/___arm.dir/Weapons/CrossBow.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Weapons\CrossBow.cpp.obj -c F:\___arm\Weapons\CrossBow.cpp
 
 CMakeFiles/___arm.dir/Weapons/CrossBow.cpp.i: cmake_force
@@ -787,7 +731,7 @@ CMakeFiles/___arm.dir/Weapons/CrossBow.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Weapons/Bow.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Weapons/Bow.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Weapons/Bow.cpp.obj: ../Weapons/Bow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/___arm.dir/Weapons/Bow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/___arm.dir/Weapons/Bow.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Weapons\Bow.cpp.obj -c F:\___arm\Weapons\Bow.cpp
 
 CMakeFiles/___arm.dir/Weapons/Bow.cpp.i: cmake_force
@@ -801,7 +745,7 @@ CMakeFiles/___arm.dir/Weapons/Bow.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Abilities/RangeAttack.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Abilities/RangeAttack.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Abilities/RangeAttack.cpp.obj: ../Abilities/RangeAttack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/___arm.dir/Abilities/RangeAttack.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/___arm.dir/Abilities/RangeAttack.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Abilities\RangeAttack.cpp.obj -c F:\___arm\Abilities\RangeAttack.cpp
 
 CMakeFiles/___arm.dir/Abilities/RangeAttack.cpp.i: cmake_force
@@ -815,7 +759,7 @@ CMakeFiles/___arm.dir/Abilities/RangeAttack.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Abilities/Mount.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Abilities/Mount.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Abilities/Mount.cpp.obj: ../Abilities/Mount.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/___arm.dir/Abilities/Mount.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/___arm.dir/Abilities/Mount.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Abilities\Mount.cpp.obj -c F:\___arm\Abilities\Mount.cpp
 
 CMakeFiles/___arm.dir/Abilities/Mount.cpp.i: cmake_force
@@ -829,7 +773,7 @@ CMakeFiles/___arm.dir/Abilities/Mount.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Weapons/Axe.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Weapons/Axe.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Weapons/Axe.cpp.obj: ../Weapons/Axe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/___arm.dir/Weapons/Axe.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/___arm.dir/Weapons/Axe.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Weapons\Axe.cpp.obj -c F:\___arm\Weapons\Axe.cpp
 
 CMakeFiles/___arm.dir/Weapons/Axe.cpp.i: cmake_force
@@ -843,7 +787,7 @@ CMakeFiles/___arm.dir/Weapons/Axe.cpp.s: cmake_force
 CMakeFiles/___arm.dir/States/BerserkState.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/States/BerserkState.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/States/BerserkState.cpp.obj: ../States/BerserkState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/___arm.dir/States/BerserkState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/___arm.dir/States/BerserkState.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\States\BerserkState.cpp.obj -c F:\___arm\States\BerserkState.cpp
 
 CMakeFiles/___arm.dir/States/BerserkState.cpp.i: cmake_force
@@ -857,7 +801,7 @@ CMakeFiles/___arm.dir/States/BerserkState.cpp.s: cmake_force
 CMakeFiles/___arm.dir/States/HealerState.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/States/HealerState.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/States/HealerState.cpp.obj: ../States/HealerState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/___arm.dir/States/HealerState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/___arm.dir/States/HealerState.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\States\HealerState.cpp.obj -c F:\___arm\States\HealerState.cpp
 
 CMakeFiles/___arm.dir/States/HealerState.cpp.i: cmake_force
@@ -871,7 +815,7 @@ CMakeFiles/___arm.dir/States/HealerState.cpp.s: cmake_force
 CMakeFiles/___arm.dir/States/PriestState.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/States/PriestState.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/States/PriestState.cpp.obj: ../States/PriestState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/___arm.dir/States/PriestState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/___arm.dir/States/PriestState.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\States\PriestState.cpp.obj -c F:\___arm\States\PriestState.cpp
 
 CMakeFiles/___arm.dir/States/PriestState.cpp.i: cmake_force
@@ -885,7 +829,7 @@ CMakeFiles/___arm.dir/States/PriestState.cpp.s: cmake_force
 CMakeFiles/___arm.dir/Interfaces/Observer.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/Interfaces/Observer.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/Interfaces/Observer.cpp.obj: ../Interfaces/Observer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/___arm.dir/Interfaces/Observer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/___arm.dir/Interfaces/Observer.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\Interfaces\Observer.cpp.obj -c F:\___arm\Interfaces\Observer.cpp
 
 CMakeFiles/___arm.dir/Interfaces/Observer.cpp.i: cmake_force
@@ -899,7 +843,7 @@ CMakeFiles/___arm.dir/Interfaces/Observer.cpp.s: cmake_force
 CMakeFiles/___arm.dir/States/NecromancerState.cpp.obj: CMakeFiles/___arm.dir/flags.make
 CMakeFiles/___arm.dir/States/NecromancerState.cpp.obj: CMakeFiles/___arm.dir/includes_CXX.rsp
 CMakeFiles/___arm.dir/States/NecromancerState.cpp.obj: ../States/NecromancerState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/___arm.dir/States/NecromancerState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/___arm.dir/States/NecromancerState.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\___arm.dir\States\NecromancerState.cpp.obj -c F:\___arm\States\NecromancerState.cpp
 
 CMakeFiles/___arm.dir/States/NecromancerState.cpp.i: cmake_force
@@ -940,10 +884,8 @@ ___arm_OBJECTS = \
 "CMakeFiles/___arm.dir/States/MageState.cpp.obj" \
 "CMakeFiles/___arm.dir/States/RogueState.cpp.obj" \
 "CMakeFiles/___arm.dir/States/SoldierState.cpp.obj" \
-"CMakeFiles/___arm.dir/States/SourceState.cpp.obj" \
 "CMakeFiles/___arm.dir/States/VampireState.cpp.obj" \
 "CMakeFiles/___arm.dir/States/WarlockState.cpp.obj" \
-"CMakeFiles/___arm.dir/States/WereWolfState.cpp.obj" \
 "CMakeFiles/___arm.dir/Units/Berserker.cpp.obj" \
 "CMakeFiles/___arm.dir/Units/Daemon.cpp.obj" \
 "CMakeFiles/___arm.dir/Units/Healer.cpp.obj" \
@@ -954,12 +896,10 @@ ___arm_OBJECTS = \
 "CMakeFiles/___arm.dir/Units/Soldier.cpp.obj" \
 "CMakeFiles/___arm.dir/Units/Vampire.cpp.obj" \
 "CMakeFiles/___arm.dir/Units/Warlock.cpp.obj" \
-"CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj" \
 "CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.obj" \
 "CMakeFiles/___arm.dir/Weapons/Claws.cpp.obj" \
 "CMakeFiles/___arm.dir/Weapons/Dagger.cpp.obj" \
 "CMakeFiles/___arm.dir/Weapons/Fists.cpp.obj" \
-"CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.obj" \
 "CMakeFiles/___arm.dir/Weapons/Teeth.cpp.obj" \
 "CMakeFiles/___arm.dir/Weapons/VikingSword.cpp.obj" \
 "CMakeFiles/___arm.dir/main.cpp.obj" \
@@ -1005,10 +945,8 @@ ___arm.exe: CMakeFiles/___arm.dir/States/HumanWolfState.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/States/MageState.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/States/RogueState.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/States/SoldierState.cpp.obj
-___arm.exe: CMakeFiles/___arm.dir/States/SourceState.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/States/VampireState.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/States/WarlockState.cpp.obj
-___arm.exe: CMakeFiles/___arm.dir/States/WereWolfState.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Units/Berserker.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Units/Daemon.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Units/Healer.cpp.obj
@@ -1019,12 +957,10 @@ ___arm.exe: CMakeFiles/___arm.dir/Units/Rogue.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Units/Soldier.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Units/Vampire.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Units/Warlock.cpp.obj
-___arm.exe: CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Weapons/BlackStaff.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Weapons/Claws.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Weapons/Dagger.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Weapons/Fists.cpp.obj
-___arm.exe: CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Weapons/Teeth.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/Weapons/VikingSword.cpp.obj
 ___arm.exe: CMakeFiles/___arm.dir/main.cpp.obj
@@ -1042,7 +978,7 @@ ___arm.exe: CMakeFiles/___arm.dir/build.make
 ___arm.exe: CMakeFiles/___arm.dir/linklibs.rsp
 ___arm.exe: CMakeFiles/___arm.dir/objects1.rsp
 ___arm.exe: CMakeFiles/___arm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking CXX executable ___arm.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\___arm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking CXX executable ___arm.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\___arm.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

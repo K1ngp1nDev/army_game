@@ -371,12 +371,6 @@
 		<Unit filename="F:/___arm/States/SoldierState.hpp">
 			<Option target="___arm"/>
 		</Unit>
-		<Unit filename="F:/___arm/States/SourceState.cpp">
-			<Option target="___arm"/>
-		</Unit>
-		<Unit filename="F:/___arm/States/SourceState.hpp">
-			<Option target="___arm"/>
-		</Unit>
 		<Unit filename="F:/___arm/States/VampireState.cpp">
 			<Option target="___arm"/>
 		</Unit>
@@ -387,12 +381,6 @@
 			<Option target="___arm"/>
 		</Unit>
 		<Unit filename="F:/___arm/States/WarlockState.hpp">
-			<Option target="___arm"/>
-		</Unit>
-		<Unit filename="F:/___arm/States/WereWolfState.cpp">
-			<Option target="___arm"/>
-		</Unit>
-		<Unit filename="F:/___arm/States/WereWolfState.hpp">
 			<Option target="___arm"/>
 		</Unit>
 		<Unit filename="F:/___arm/Units/Berserker.cpp">
@@ -411,12 +399,6 @@
 			<Option target="___arm"/>
 		</Unit>
 		<Unit filename="F:/___arm/Units/Healer.hpp">
-			<Option target="___arm"/>
-		</Unit>
-		<Unit filename="F:/___arm/Units/Lycanthrope.cpp">
-			<Option target="___arm"/>
-		</Unit>
-		<Unit filename="F:/___arm/Units/Lycanthrope.hpp">
 			<Option target="___arm"/>
 		</Unit>
 		<Unit filename="F:/___arm/Units/Mage.cpp">
@@ -501,12 +483,6 @@
 			<Option target="___arm"/>
 		</Unit>
 		<Unit filename="F:/___arm/Weapons/Fists.hpp">
-			<Option target="___arm"/>
-		</Unit>
-		<Unit filename="F:/___arm/Weapons/SourceWeapon.cpp">
-			<Option target="___arm"/>
-		</Unit>
-		<Unit filename="F:/___arm/Weapons/SourceWeapon.hpp">
 			<Option target="___arm"/>
 		</Unit>
 		<Unit filename="F:/___arm/Weapons/Teeth.cpp">

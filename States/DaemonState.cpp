@@ -20,10 +20,6 @@ int DaemonState::getHp() const {
 	return SoldierState::getHp();
 }
 
-//double RogueState::getDamage() const {
-//	return SoldierState::getDamage();
-//}
-
 const std::string DaemonState::getName() const {
 	return SoldierState::getName();
 }
@@ -39,10 +35,6 @@ void DaemonState::setHpLimit(int hitPointsLimit) {
 void DaemonState::setHp(int hitPoints) {
 	SoldierState::setHp(hitPoints);
 }
-//
-//void RogueState::setDamage(double damage) {
-//	SoldierState::setDamage(damage);
-//}
 
 int DaemonState::getStrenght() const {
 	return SoldierState::getStrenght();
@@ -59,10 +51,6 @@ int DaemonState::getIntelligence() const {
 int DaemonState::getStep() const {
 	return SoldierState::getStep();
 }
-
-//int RogueState::getRange() const {
-//	return SoldierState::getRange();
-//}
 
 void DaemonState::setStrenght(int newStrenght) {
 	SoldierState::setStrenght(newStrenght);

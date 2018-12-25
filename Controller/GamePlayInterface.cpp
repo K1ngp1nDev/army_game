@@ -8,7 +8,6 @@
 
 
 bool onChoiceAnsweredFillTeams(int answer) {
-
 	if ( answer == 1 ) {
 		BattleField::getInstance()->getTeam()->randomFillUnitsOnBoard();
 		return true;
@@ -20,7 +19,6 @@ bool onChoiceAnsweredFillTeams(int answer) {
 }
 
 bool onChoiceAnsweredSelectTeam(int answer) {
-
 	if ( answer == 0 ) {
 		BattleField::getInstance()->getTeam()->showUnitsOnField(0);
 		return true;
@@ -122,4 +120,3 @@ void GamePlayInterface::start() {
 	}
 	std::cout << std::endl <<  std::endl <<  "-----------==== G A M E - O V E R ====-----------" << std::endl;
 }
-

@@ -11,7 +11,6 @@
 #include "../Interfaces/AbstractAttack.hpp"
 #include "../Interfaces/AbstractWeapon.hpp"
 
-
 Transformation::Transformation(AbstractUnit *unit)
 	: SpecialAbility(unit)
 	, m_unit(unit)
@@ -50,8 +49,6 @@ void Transformation::specialAbilityActivate() {
 
 			std::cout << m_unit->getState()->getName() << " now" << std::endl;
 			BattleField::getInstance()->markerOnBoard(m_unit);
-//		}
-		
 	}
 }
 
@@ -72,3 +69,4 @@ void Transformation::add(AbstractUnit *unit) {
 		m_list_of_weapons.insert(std::make_pair("alter", std::make_pair(m_unit->getWeapon(), m_unit->getAttack())));
 	}
 }
+

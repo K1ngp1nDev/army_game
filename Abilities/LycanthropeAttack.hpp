@@ -3,7 +3,6 @@
 #pragma once
 
 #include "../Interfaces/AbstractAttack.hpp"
-#include "../States/WereWolfState.hpp"
 
 class WereWolfState;
 

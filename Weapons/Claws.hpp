@@ -11,7 +11,6 @@ class Claws : public AbstractWeapon {
 	Claws(AbstractUnit* holder);
 	~Claws() override;
 
-//	int calculateDamage(AbstractUnit *holder) override;
 };
 
 

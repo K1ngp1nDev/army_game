@@ -23,25 +23,21 @@ class HealerState : public MageState {
 	
 	int getHpLimit() const override;
 	int getHp() const override;
-//	double getDamage() const override;
 	const std::string getName() const override;
 	
 	int getStrenght() const override;
 	int getDexterity() const override;
 	int getIntelligence() const override;
 	int getStep() const override;
-//	int getRange() const override;
-	
+
 	void setName(const std::string newName) override;
 	void setHpLimit(int hitPointsLimit) override;
 	void setHp(int hitPoints) override;
-//	void setDamage(double damage) override;
-	
+
 	void setStrenght(int newStrenght) override;
 	void setDexterity(int newDexterity) override;
 	void setIntelligence(int newIntelligence) override;
 	void setStep(int newStep) override;
-//	void setRange(int newRange) override;
 };
 
 

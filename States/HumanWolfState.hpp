@@ -16,7 +16,6 @@ class HumanWolfState : public SoldierState {
 
 	bool isWereWolfGet();
 	void setWereWolf(bool value);
-	////	void transform();
 };
 
 

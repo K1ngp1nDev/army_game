@@ -10,8 +10,6 @@ class Dagger : public AbstractWeapon {
 	public:
 	Dagger(AbstractUnit* holder);
 	~Dagger() override;
-
-//	int calculateDamage(AbstractUnit *holder) override;
 };
 
 

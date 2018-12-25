@@ -7,7 +7,6 @@
 #include "../Interfaces/AbstractState.hpp"
 #include "../Interfaces/AbstractWeapon.hpp"
 
-
 Team::Team(){
 	srand (time(NULL));
 }
@@ -181,6 +180,7 @@ void Team::randomFillUnitsOnBoard() {
 	std::cout << "Units in team now: " << randQuntifyOfTeamMembers / 2 << std::endl;
 
 	for ( int i = 1; i <= randQuntifyOfTeamMembers; i++ ) {
+
 		BattleField::getInstance()->randomFactory(i);
 	}
 }
@@ -194,7 +194,3 @@ bool Team::checkTeam() const { // check alive in teams
 	}
 	return true;
 }
-
-
-
-

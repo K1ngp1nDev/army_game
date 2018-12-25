@@ -18,7 +18,6 @@ class VikingSword : public AbstractWeapon {
 	int getWeight() const override;
 	int getAgility() const override;
 	int getMind() const override;
-//	int calculateDamage(AbstractUnit *holder) override;
 
 };
 

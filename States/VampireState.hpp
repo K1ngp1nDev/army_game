@@ -2,7 +2,6 @@
 
 #pragma once
 
-//#include "../Interfaces/AbstractState.hpp"
 #include "SoldierState.hpp"
 
 class VampireState : public SoldierState {
@@ -10,5 +9,4 @@ class VampireState : public SoldierState {
 	public:
 	VampireState();
 	~VampireState() override;
-	
 };

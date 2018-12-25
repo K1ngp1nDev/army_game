@@ -83,14 +83,10 @@ add_executable(___arm
         States/RogueState.hpp
         States/SoldierState.cpp
         States/SoldierState.hpp
-        States/SourceState.cpp
-        States/SourceState.hpp
         States/VampireState.cpp
         States/VampireState.hpp
         States/WarlockState.cpp
         States/WarlockState.hpp
-        States/WereWolfState.cpp
-        States/WereWolfState.hpp
         Units/Berserker.cpp
         Units/Berserker.hpp
         Units/Daemon.cpp
@@ -111,8 +107,6 @@ add_executable(___arm
         Units/Vampire.hpp
         Units/Warlock.cpp
         Units/Warlock.hpp
-        Units/Lycanthrope.cpp
-        Units/Lycanthrope.hpp
         Weapons/BlackStaff.cpp
         Weapons/BlackStaff.hpp
         Weapons/Claws.cpp
@@ -121,8 +115,6 @@ add_executable(___arm
         Weapons/Dagger.hpp
         Weapons/Fists.cpp
         Weapons/Fists.hpp
-        Weapons/SourceWeapon.cpp
-        Weapons/SourceWeapon.hpp
         Weapons/Teeth.cpp
         Weapons/Teeth.hpp
         Weapons/VikingSword.cpp

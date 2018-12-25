@@ -532,8 +532,6 @@ void BattleField::clearPointAndDelUnit(AbstractUnit *target) {
 	for( std::map<std::pair<int, int>, AbstractUnit*>::const_iterator it = points.begin();
 	     it != points.end(); it++) {
 		if((it->second) == target) {
-//			std::cout << "FLAG BATTLE.CPP clearPointAndDelUnit   --- 1 " << std::endl;
-//			std::cout << "delete point of " << (it)->second->getState()->getName() << std::endl;
 			location[(it)->first.first][(it)->first.second] = 'x';
 			
 			points.erase(it);
@@ -544,8 +542,6 @@ void BattleField::clearPointAndDelUnit(AbstractUnit *target) {
 	for( std::map<int, AbstractUnit*>::const_iterator iterator = m_selected_units.begin();
 	     iterator != m_selected_units.end(); iterator++) {
 		if ( iterator->second == target ) {
-//			std::cout << "FLAG BATTLE.CPP clearPointAndDelUnit   --- 2 " << std::endl;
-
 			m_selected_units.erase(iterator->first);
 			break;
 		}
@@ -553,8 +549,6 @@ void BattleField::clearPointAndDelUnit(AbstractUnit *target) {
 
 	getTeam()->removeUnit(getTeam()->showPlayerTeam(target), target);
 	if ( target->getState()->getHp() <= 0 ) {
-//		std::cout << "FLAG BATTLE.CPP clearPointAndDelUnit   --- 3 " << std::endl;
-
 		delete target;
 		return;
 	}
@@ -636,7 +630,6 @@ int x = 0;
 		}
 	}
 	if ( x == 0 ) {
-//		std::cout << unit->getState()->getName() << " is not found on field." << std::endl;
 	}
 	return x;
 }
@@ -647,12 +640,10 @@ int BattleField::getLocationTargetY(AbstractUnit *unit) {
 	     it != points.end(); it++) {
 		if((it->second) == unit) {
 			y = (it)->first.second;
-//			location[x][y] = '*';
 			break;
 		}
 	}
 	if ( y == 0 ) {
-//		std::cout << unit->getState()->getName() << " is not found on field." << std::endl;
 	}
 	return y;
 }
@@ -771,7 +762,6 @@ void BattleField::printBattleField() const {
 		std::cout << " " << i << " |";
 		for ( int j = 1; j < BOARDSIZE; j++ ) {
 			std::cout << this->location[i][j] << "|";
-//			std::cout << getBoard() << "_";
 		}
 		std::cout << " " << i << std::endl;
 	}
@@ -787,12 +777,9 @@ Team *BattleField::getTeam() const {
 }
 
 AbstractUnit* BattleField::selectUnitOnMField(int x, int y) {
-//	std::map<std::pair<int, int>, AbstractUnit*>::const_iterator it = points.begin();
-
 	for( std::map<std::pair<int, int>, AbstractUnit*>::const_iterator it = points.begin();
 	     it != points.end(); it++) {
 		if ( (x == it->first.first) && (y == it->first.second)) {
-//					std::cout<< (it)->second->getState()->getName()  <<std::endl;
 					m_unit = (it)->second;
 		}
 	}
@@ -1034,11 +1021,6 @@ void BattleField::factory(int player, int team) {
 		case 1: {
 			Soldier *soldier = new Soldier;
 			m_unit = soldier;
-//			soldier->availableActions().insert(EActionType::RangeAttack);
-//			m_unit->availableActions().insert(EActionType::Move);
-//			m_unit->availableActions().insert(EActionType::MeleeAttack);
-//			m_unit->availableActions().insert(EActionType::Ride);
-//			m_unit->availableActions().insert(EActionType::RangeAttack);
 			
 			std::cout << *soldier << " created." << std::endl;
 			if (team % 2 == 0) {
@@ -1052,8 +1034,7 @@ void BattleField::factory(int player, int team) {
 		}
 		case 2: {
 			Rogue *rogue = new Rogue;
-//			rogue->availableActions().insert(EActionType::RangeAttack);
-			
+
 			std::cout << *rogue << " created." << std::endl;
 			if (team % 2 == 0) {
 				BattleField::getInstance()->getTeam()->addUnitToTeam(select_team::red, rogue);
@@ -1195,11 +1176,6 @@ void BattleField::randomFactory(int multipleOfTeam) {
 	switch ( unit ) {
 		case 1: {
 			Soldier *soldier = new Soldier;
-
-//				soldier->availableActions().insert(EActionType::Ride);
-//				soldier->availableActions().insert(EActionType::RangeAttack);
-//				soldier->availableActions().insert(EActionType::Move);
-//				soldier->availableActions().insert(EActionType::MeleeAttack);
 			
 			std::cout << *soldier << " created." << std::endl;
 			if (multipleOfTeam % 2 == 0) {
@@ -1212,9 +1188,6 @@ void BattleField::randomFactory(int multipleOfTeam) {
 		}
 		case 2: {
 			Rogue *rogue = new Rogue;
-//				rogue->availableActions().insert(EActionType::RangeAttack);
-//				rogue->availableActions().insert(EActionType::Move);
-//				rogue->availableActions().insert(EActionType::MeleeAttack);
 			std::cout << *rogue << " created." << std::endl;
 			if (multipleOfTeam % 2 == 0) {
 				BattleField::getInstance()->getTeam()->addUnitToTeam(select_team::red, rogue);
@@ -1226,9 +1199,6 @@ void BattleField::randomFactory(int multipleOfTeam) {
 		}
 		case 3: {
 			Warlock *warlock = new Warlock;
-//				warlock->availableActions().insert(EActionType::RangeAttack);
-//				warlock->availableActions().insert(EActionType::Move);
-//				warlock->availableActions().insert(EActionType::MeleeAttack);
 			std::cout << *warlock << " created." << std::endl;
 			if (multipleOfTeam % 2 == 0) {
 				BattleField::getInstance()->getTeam()->addUnitToTeam(select_team::red, warlock);
@@ -1241,9 +1211,6 @@ void BattleField::randomFactory(int multipleOfTeam) {
 		}
 		case 4: {
 			Mage *mage = new Mage;
-//				soldier->availableActions().insert(EActionType::RangeAttack);
-//				mage->availableActions().insert(EActionType::Move);
-//				mage->availableActions().insert(EActionType::MeleeAttack);
 			std::cout << *mage << " created." << std::endl;
 			if (multipleOfTeam % 2 == 0) {
 				BattleField::getInstance()->getTeam()->addUnitToTeam(select_team::red, mage);
@@ -1341,15 +1308,8 @@ void BattleField::addUnitToListOfSelect(int choice, AbstractUnit *unit) {
 	m_selected_units.insert(std::make_pair(choice,unit));
 }
 
-//void BattleField::removeUnitToListOfSelect(int choice, AbstractUnit *unit) {
-//	m_selected_units.erase(choice);
-//	std::cout << choice << ". " << unit->getState()->getName() << " deleted from list" << std::endl;
-//}
-
 AbstractUnit *BattleField::getSelectUnit(int choice) {
 m_unit = nullptr;
-//int count = 1;
-
 	for ( std::map<int, AbstractUnit *>::const_iterator it = m_selected_units.begin();
 	      it != m_selected_units.end(); it++ ) {
 
@@ -1363,9 +1323,7 @@ m_unit = nullptr;
 					if (!checkWeaponMeleeRange(soldier->getWeapon())) { //crossbow hold now
 						m_inventory.insert(std::make_pair(soldier->getWeapon()->getTitle(),
 						                                  std::make_pair(soldier->getWeapon(), soldier->getAttack())));
-//						m_inventory.insert(std::make_pair("teeth"
-//							, std::make_pair(new Teeth(soldier), new VampireAttack(soldier))));
-						
+
 					} else { // melee weapon hold now (TEETH)
 						m_inventory.insert(std::make_pair(soldier->getWeapon()->getTitle(),
 						                                  std::make_pair(soldier->getWeapon(), soldier->getAttack())));
@@ -1396,9 +1354,6 @@ m_unit = nullptr;
 						m_inventory.insert(std::make_pair(rogue->getWeapon()->getTitle(),
 						                                  std::make_pair(rogue->getWeapon(), rogue->getAttack())));
 
-//						m_inventory.insert(std::make_pair("teeth"
-//							, std::make_pair(new Teeth(rogue), new VampireAttack(rogue))));
-						
 					} else { // melee weapon hold now (TEETH)
 						std::cout << "add " << rogue->getWeapon()->getTitle() << " in map" << std::endl;
 						
@@ -1524,9 +1479,6 @@ m_unit = nullptr;
 				location[getLocationTargetX(soldier)][getLocationTargetY(soldier)] = tmpName.at(0);
 				printBattleField();
 				/*****************************************************************************/
-//
-//				soldier->availableActions().insert(EActionType::Ride);
-//				filterAvailableActions(soldier);
 				listOfActions(soldier);
 				/*****************************************************************************/
 				for ( std::map<int, Action *>::const_iterator iterator = m_actions.begin();
@@ -1630,7 +1582,6 @@ bool canCastAnySpell(AbstractCaster* mage) {
 			}
 		}
 	} else {
-		
 		for (const std::pair<Spell, AbstractSpell*>& spellPair : mage->getSpellBook()) {
 			if (canCastSpell(mage, spellPair.first)) {
 				return true;
@@ -1656,7 +1607,7 @@ std::map<int, Action*> BattleField::listOfActions(AbstractUnit *unit) {
 
 std::set<EActionType> BattleField::filterAvailableActions(AbstractUnit* unit) {
 	std::set<EActionType> filteredActions;
-//	m_unit = unit;
+
 		/*********INFECTED BY WEREWOLF***************/
 	if ( dynamic_cast<Transformation*>(unit->getSpecialAbility())
 	  && (!dynamic_cast<Beast*>(unit->getAttribute())) ) {
@@ -1717,51 +1668,8 @@ std::set<EActionType> BattleField::filterAvailableActions(AbstractUnit* unit) {
 		filteredActions.insert(EActionType::Move);
 		
 	}
-	
 	return filteredActions;
 }
-
-
-
-//	for (EActionType actionType : unit->availableActions()) {
-//        switch (actionType) {
-//        case EActionType::CastSpell: {
-//			AbstractCaster* mage = static_cast<AbstractCaster*>(unit);
-//			if (canCastAnySpell(mage)) {
-//				filteredActions.insert(actionType);
-//			}
-//        }
-//        case EActionType::Ride: {
-//        	std::cout << "case RIDE test" << std::endl;
-//	        if ( dynamic_cast<Mount*>(unit->getSpecialAbility())
-//	        && (!dynamic_cast<Beast*>(unit->getAttribute()))) {
-//		        filteredActions.insert(actionType);
-//	        }
-//        }
-//        case EActionType::RangeAttack: {
-//	        if ((!dynamic_cast<Beast *>(unit->getAttribute()))) {
-////	            && dynamic_cast<Soldier*>() ) {
-//		        filteredActions.insert(actionType);
-//	        }
-//        }
-//        case EActionType::Transformation: {
-//	        if (dynamic_cast<Transformation *>(unit->getSpecialAbility()) ) {
-//		        filteredActions.insert(actionType);
-//	        }
-//        }
-//        case EActionType::SummonDaemon:
-//	    case EActionType::Meditation:
-//	    case EActionType::MeleeAttack: {
-//	    	std::cout << "testmeleeattack in listofaction" << std::endl;
-//		    filteredActions.insert(actionType);
-//
-//	    }
-//	    case EActionType::Move:
-//        filteredActions.insert(actionType);
-//        default:
-//            break;
-//        }
-
 
 bool mover(int answer) {
 	if ( BattleField::getInstance()->m_free_points_to_move.count(answer) ) {
@@ -1820,12 +1728,6 @@ int differenceY(AbstractUnit *m_unit, AbstractUnit *target) {
 
 	return diffY;
 }
-//int diffY(AbstractUnit* unit, AbstractUnit* target) {
-//	int diff;
-//
-//	return diff;
-//}
-
 
 void BattleField::actionOfSelectedUnit(int answer) {
 	std::string question = "QUESTION";
@@ -2104,14 +2006,9 @@ void BattleField::actionOfSelectedUnit(int answer) {
 				quant -= 1; // self point minus.
 				key = rand() % quant + 1;
 
-//			std::cout << "rand key " << key << " : (" << m_free_points_to_move.find(key)->second.first
-//			<< "." << m_free_points_to_move.find(key)->second.second << ")" << std::endl;
 				_attack->setAttacked(m_available_targets.find(key)->second);
 				_attack->execute();
-//			_move->execute();
-//			printBattleField();
 			} else if ( key == 99 ) {
-//				std::cout << "Skip. " << std::endl;
 				_attack->execute();
 			} else {
 				_attack->setAttacked(m_available_targets.find(key)->second);
@@ -2238,19 +2135,16 @@ void BattleField::actionOfSelectedUnit(int answer) {
 					_cast->execute();
 					
 				} else if ( key == 99 ) {
-//			std::cout << "Skip. " << std::endl;
 					_cast->execute();
 				} else {
 					_cast->setTarget(m_available_targets.find(key)->second);
 					_cast->execute();
 				}
 			} else if ( (m_available_targets.count(1)) && !(m_available_targets.count(2)) ) {
-				//if only zero target
 				_cast->setTarget(m_available_targets.find(key)->second);
 				_cast->execute();
 				
 			} else {
-				//	false
 				_cast->execute();
 			}
 			
@@ -2377,19 +2271,16 @@ void BattleField::actionOfSelectedUnit(int answer) {
 					_cast->execute();
 					
 				} else if ( key == 99 ) {
-//			std::cout << "Skip. " << std::endl;
 					_cast->execute();
 				} else {
 					_cast->setTarget(m_available_targets.find(key)->second);
 					_cast->execute();
 				}
 			} else if ( (m_available_targets.count(1)) && !(m_available_targets.count(2)) ) {
-				//if only zero target
 				_cast->setTarget(m_available_targets.find(key)->second);
 				_cast->execute();
 				
 			} else {
-				//	false
 				_cast->execute();
 			}
 		}
@@ -2495,19 +2386,16 @@ void BattleField::actionOfSelectedUnit(int answer) {
 					_rangeAttack->execute();
 					
 				} else if (key == 99) {
-//			std::cout << "Skip. " << std::endl;
 					_rangeAttack->execute();
 				} else {
 					_rangeAttack->setTarget(m_available_targets.find(key)->second);
 					_rangeAttack->execute();
 				}
 			} else if ((m_available_targets.count(1)) && !(m_available_targets.count(2))) {
-				//if only zero target
 				_rangeAttack->setTarget(m_available_targets.find(key)->second);
 				_rangeAttack->execute();
 				
 			} else {
-				//	false
 				_rangeAttack->execute();
 			}
 		}

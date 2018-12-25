@@ -23,7 +23,6 @@ class ClassicAttack;
 	void clickSpecialAbility() override;
 	void attack(AbstractUnit *enemy) override;
 	void counterAttack(AbstractUnit *enemy) override;
-//	std::set<EActionType> availableActions() override;
 
  };
 

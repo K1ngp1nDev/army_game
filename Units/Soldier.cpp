@@ -21,10 +21,6 @@ Soldier::Soldier()
 
 Soldier::~Soldier() {
 	std::cout << this->getState()->getName() << " destructor" << std::endl;
-//	delete m_special_ability;
-//	delete m_attack;
-//	delete m_weapon;
-//	delete m_mount;
 	Observer::getInstance()->informObserver(this);
 }
 

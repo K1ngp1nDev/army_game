@@ -21,7 +21,6 @@ class Fists : public AbstractWeapon {
 
 	void showDemands() const override;
 	bool compare(AbstractUnit *holder) const override;
-//	int calculateDamage(AbstractUnit *holder) override;
 };
 
 

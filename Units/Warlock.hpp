@@ -27,8 +27,6 @@ class Warlock : public AbstractCaster {
 	void setDemon(Daemon* daemon) ;
 	void clickSpecialAbility() override;
 
-//	std::set<EActionType> availableActions() override;
-	
 };
 
 std::ostream& operator<<(std::ostream& out, const Warlock& warlock);

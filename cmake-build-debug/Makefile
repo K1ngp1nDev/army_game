@@ -1067,33 +1067,6 @@ States/SoldierState.cpp.s:
 	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/States/SoldierState.cpp.s
 .PHONY : States/SoldierState.cpp.s
 
-States/SourceState.obj: States/SourceState.cpp.obj
-
-.PHONY : States/SourceState.obj
-
-# target to build an object file
-States/SourceState.cpp.obj:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/States/SourceState.cpp.obj
-.PHONY : States/SourceState.cpp.obj
-
-States/SourceState.i: States/SourceState.cpp.i
-
-.PHONY : States/SourceState.i
-
-# target to preprocess a source file
-States/SourceState.cpp.i:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/States/SourceState.cpp.i
-.PHONY : States/SourceState.cpp.i
-
-States/SourceState.s: States/SourceState.cpp.s
-
-.PHONY : States/SourceState.s
-
-# target to generate assembly for a file
-States/SourceState.cpp.s:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/States/SourceState.cpp.s
-.PHONY : States/SourceState.cpp.s
-
 States/VampireState.obj: States/VampireState.cpp.obj
 
 .PHONY : States/VampireState.obj
@@ -1147,33 +1120,6 @@ States/WarlockState.s: States/WarlockState.cpp.s
 States/WarlockState.cpp.s:
 	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/States/WarlockState.cpp.s
 .PHONY : States/WarlockState.cpp.s
-
-States/WereWolfState.obj: States/WereWolfState.cpp.obj
-
-.PHONY : States/WereWolfState.obj
-
-# target to build an object file
-States/WereWolfState.cpp.obj:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/States/WereWolfState.cpp.obj
-.PHONY : States/WereWolfState.cpp.obj
-
-States/WereWolfState.i: States/WereWolfState.cpp.i
-
-.PHONY : States/WereWolfState.i
-
-# target to preprocess a source file
-States/WereWolfState.cpp.i:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/States/WereWolfState.cpp.i
-.PHONY : States/WereWolfState.cpp.i
-
-States/WereWolfState.s: States/WereWolfState.cpp.s
-
-.PHONY : States/WereWolfState.s
-
-# target to generate assembly for a file
-States/WereWolfState.cpp.s:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/States/WereWolfState.cpp.s
-.PHONY : States/WereWolfState.cpp.s
 
 Units/Berserker.obj: Units/Berserker.cpp.obj
 
@@ -1255,33 +1201,6 @@ Units/Healer.s: Units/Healer.cpp.s
 Units/Healer.cpp.s:
 	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Units/Healer.cpp.s
 .PHONY : Units/Healer.cpp.s
-
-Units/Lycanthrope.obj: Units/Lycanthrope.cpp.obj
-
-.PHONY : Units/Lycanthrope.obj
-
-# target to build an object file
-Units/Lycanthrope.cpp.obj:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj
-.PHONY : Units/Lycanthrope.cpp.obj
-
-Units/Lycanthrope.i: Units/Lycanthrope.cpp.i
-
-.PHONY : Units/Lycanthrope.i
-
-# target to preprocess a source file
-Units/Lycanthrope.cpp.i:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.i
-.PHONY : Units/Lycanthrope.cpp.i
-
-Units/Lycanthrope.s: Units/Lycanthrope.cpp.s
-
-.PHONY : Units/Lycanthrope.s
-
-# target to generate assembly for a file
-Units/Lycanthrope.cpp.s:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.s
-.PHONY : Units/Lycanthrope.cpp.s
 
 Units/Mage.obj: Units/Mage.cpp.obj
 
@@ -1661,33 +1580,6 @@ Weapons/Fists.cpp.s:
 	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Weapons/Fists.cpp.s
 .PHONY : Weapons/Fists.cpp.s
 
-Weapons/SourceWeapon.obj: Weapons/SourceWeapon.cpp.obj
-
-.PHONY : Weapons/SourceWeapon.obj
-
-# target to build an object file
-Weapons/SourceWeapon.cpp.obj:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.obj
-.PHONY : Weapons/SourceWeapon.cpp.obj
-
-Weapons/SourceWeapon.i: Weapons/SourceWeapon.cpp.i
-
-.PHONY : Weapons/SourceWeapon.i
-
-# target to preprocess a source file
-Weapons/SourceWeapon.cpp.i:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.i
-.PHONY : Weapons/SourceWeapon.cpp.i
-
-Weapons/SourceWeapon.s: Weapons/SourceWeapon.cpp.s
-
-.PHONY : Weapons/SourceWeapon.s
-
-# target to generate assembly for a file
-Weapons/SourceWeapon.cpp.s:
-	$(MAKE) -f CMakeFiles\___arm.dir\build.make CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.s
-.PHONY : Weapons/SourceWeapon.cpp.s
-
 Weapons/Teeth.obj: Weapons/Teeth.cpp.obj
 
 .PHONY : Weapons/Teeth.obj
@@ -1883,18 +1775,12 @@ help:
 	@echo ... States/SoldierState.obj
 	@echo ... States/SoldierState.i
 	@echo ... States/SoldierState.s
-	@echo ... States/SourceState.obj
-	@echo ... States/SourceState.i
-	@echo ... States/SourceState.s
 	@echo ... States/VampireState.obj
 	@echo ... States/VampireState.i
 	@echo ... States/VampireState.s
 	@echo ... States/WarlockState.obj
 	@echo ... States/WarlockState.i
 	@echo ... States/WarlockState.s
-	@echo ... States/WereWolfState.obj
-	@echo ... States/WereWolfState.i
-	@echo ... States/WereWolfState.s
 	@echo ... Units/Berserker.obj
 	@echo ... Units/Berserker.i
 	@echo ... Units/Berserker.s
@@ -1904,9 +1790,6 @@ help:
 	@echo ... Units/Healer.obj
 	@echo ... Units/Healer.i
 	@echo ... Units/Healer.s
-	@echo ... Units/Lycanthrope.obj
-	@echo ... Units/Lycanthrope.i
-	@echo ... Units/Lycanthrope.s
 	@echo ... Units/Mage.obj
 	@echo ... Units/Mage.i
 	@echo ... Units/Mage.s
@@ -1949,9 +1832,6 @@ help:
 	@echo ... Weapons/Fists.obj
 	@echo ... Weapons/Fists.i
 	@echo ... Weapons/Fists.s
-	@echo ... Weapons/SourceWeapon.obj
-	@echo ... Weapons/SourceWeapon.i
-	@echo ... Weapons/SourceWeapon.s
 	@echo ... Weapons/Teeth.obj
 	@echo ... Weapons/Teeth.i
 	@echo ... Weapons/Teeth.s

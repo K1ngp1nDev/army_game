@@ -4,11 +4,9 @@
 
 SummonDaemon::SummonDaemon(const std::string name, int cost, int points, int range)
 	: AbstractSpell(name, cost, points, range) {
-
 }
 
 SummonDaemon::~SummonDaemon() {
-
 }
 
 void SummonDaemon::castSpell(AbstractUnit *master) {

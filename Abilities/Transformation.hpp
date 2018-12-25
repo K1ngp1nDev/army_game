@@ -5,7 +5,6 @@
 #include "SpecialAbility.hpp"
 #include <map>
 
-class WereWolfState;
 class SpecialAbility;
 class AbstractUnit;
 class AbstractAttack;

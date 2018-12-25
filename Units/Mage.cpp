@@ -5,9 +5,7 @@
 #include "../Spells/FireBall.hpp"
 #include "../Spells/Heal.hpp"
 #include "../Weapons/Fists.hpp"
-#include "../States/WereWolfState.hpp"
 #include "../States/VampireState.hpp"
-#include "../States/SourceState.hpp"
 #include "../Weapons/BlackStaff.hpp"
 #include "../Interfaces/Observer.hpp"
 

@@ -75,7 +75,6 @@ CMakeFiles/___arm.dir/Abilities/LycanthropeAttack.cpp.obj: ../Interfaces/Undead.
 CMakeFiles/___arm.dir/Abilities/LycanthropeAttack.cpp.obj: ../States/DaemonState.hpp
 CMakeFiles/___arm.dir/Abilities/LycanthropeAttack.cpp.obj: ../States/MageState.hpp
 CMakeFiles/___arm.dir/Abilities/LycanthropeAttack.cpp.obj: ../States/SoldierState.hpp
-CMakeFiles/___arm.dir/Abilities/LycanthropeAttack.cpp.obj: ../States/WereWolfState.hpp
 CMakeFiles/___arm.dir/Abilities/LycanthropeAttack.cpp.obj: ../Units/Daemon.hpp
 CMakeFiles/___arm.dir/Abilities/LycanthropeAttack.cpp.obj: ../Units/Soldier.hpp
 CMakeFiles/___arm.dir/Abilities/LycanthropeAttack.cpp.obj: ../Units/Vampire.hpp
@@ -158,7 +157,6 @@ CMakeFiles/___arm.dir/Abilities/Transformation.cpp.obj: ../Interfaces/SpellBook.
 CMakeFiles/___arm.dir/Abilities/Transformation.cpp.obj: ../Interfaces/Team.hpp
 CMakeFiles/___arm.dir/Abilities/Transformation.cpp.obj: ../States/MageState.hpp
 CMakeFiles/___arm.dir/Abilities/Transformation.cpp.obj: ../States/SoldierState.hpp
-CMakeFiles/___arm.dir/Abilities/Transformation.cpp.obj: ../States/WereWolfState.hpp
 CMakeFiles/___arm.dir/Abilities/Transformation.cpp.obj: ../Weapons/Claws.hpp
 
 CMakeFiles/___arm.dir/Abilities/VampireAttack.cpp.obj: ../States/MageState.hpp
@@ -325,7 +323,6 @@ CMakeFiles/___arm.dir/Interfaces/BattleField.cpp.obj: ../Controller/Action.hpp
 CMakeFiles/___arm.dir/Interfaces/BattleField.cpp.obj: ../Controller/actionfactory.h
 CMakeFiles/___arm.dir/Interfaces/BattleField.cpp.obj: ../States/MageState.hpp
 CMakeFiles/___arm.dir/Interfaces/BattleField.cpp.obj: ../States/SoldierState.hpp
-CMakeFiles/___arm.dir/Interfaces/BattleField.cpp.obj: ../States/WereWolfState.hpp
 CMakeFiles/___arm.dir/Interfaces/BattleField.cpp.obj: ../Abilities/ClassicAttack.hpp
 CMakeFiles/___arm.dir/Interfaces/BattleField.cpp.obj: ../Abilities/DaemonAttack.hpp
 CMakeFiles/___arm.dir/Interfaces/BattleField.cpp.obj: ../Abilities/Mount.hpp
@@ -502,7 +499,6 @@ CMakeFiles/___arm.dir/States/HumanWolfState.cpp.obj: ../Interfaces/AbstractState
 CMakeFiles/___arm.dir/States/HumanWolfState.cpp.obj: ../States/HumanWolfState.cpp
 CMakeFiles/___arm.dir/States/HumanWolfState.cpp.obj: ../States/HumanWolfState.hpp
 CMakeFiles/___arm.dir/States/HumanWolfState.cpp.obj: ../States/SoldierState.hpp
-CMakeFiles/___arm.dir/States/HumanWolfState.cpp.obj: ../States/WereWolfState.hpp
 
 CMakeFiles/___arm.dir/States/MageState.cpp.obj: ../Exceptions/UnitIsDeadException.hpp
 CMakeFiles/___arm.dir/States/MageState.cpp.obj: ../Interfaces/AbstractState.hpp
@@ -535,8 +531,6 @@ CMakeFiles/___arm.dir/States/SoldierState.cpp.obj: ../Interfaces/AbstractState.h
 CMakeFiles/___arm.dir/States/SoldierState.cpp.obj: ../States/SoldierState.cpp
 CMakeFiles/___arm.dir/States/SoldierState.cpp.obj: ../States/SoldierState.hpp
 
-CMakeFiles/___arm.dir/States/SourceState.cpp.obj: ../States/SourceState.cpp
-
 CMakeFiles/___arm.dir/States/VampireState.cpp.obj: ../Exceptions/UnitIsDeadException.hpp
 CMakeFiles/___arm.dir/States/VampireState.cpp.obj: ../Interfaces/AbstractState.hpp
 CMakeFiles/___arm.dir/States/VampireState.cpp.obj: ../States/SoldierState.hpp
@@ -549,8 +543,6 @@ CMakeFiles/___arm.dir/States/WarlockState.cpp.obj: ../States/MageState.hpp
 CMakeFiles/___arm.dir/States/WarlockState.cpp.obj: ../States/SoldierState.hpp
 CMakeFiles/___arm.dir/States/WarlockState.cpp.obj: ../States/WarlockState.cpp
 CMakeFiles/___arm.dir/States/WarlockState.cpp.obj: ../States/WarlockState.hpp
-
-CMakeFiles/___arm.dir/States/WereWolfState.cpp.obj: ../States/WereWolfState.cpp
 
 CMakeFiles/___arm.dir/Units/Berserker.cpp.obj: ../Interfaces/AbstractUnit.hpp
 CMakeFiles/___arm.dir/Units/Berserker.cpp.obj: ../Abilities/ClassicAttack.hpp
@@ -626,8 +618,6 @@ CMakeFiles/___arm.dir/Units/Healer.cpp.obj: ../Units/Healer.hpp
 CMakeFiles/___arm.dir/Units/Healer.cpp.obj: ../Weapons/BlackStaff.hpp
 CMakeFiles/___arm.dir/Units/Healer.cpp.obj: ../Weapons/Fists.hpp
 
-CMakeFiles/___arm.dir/Units/Lycanthrope.cpp.obj: ../Units/Lycanthrope.cpp
-
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../Abilities/SpecialAbility.hpp
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../States/MageState.hpp
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../Abilities/ClassicAttack.hpp
@@ -649,9 +639,7 @@ CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../Spells/FireBall.hpp
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../Spells/Heal.hpp
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../States/MageState.hpp
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../States/SoldierState.hpp
-CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../States/SourceState.hpp
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../States/VampireState.hpp
-CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../States/WereWolfState.hpp
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../Units/Mage.cpp
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../Units/Mage.hpp
 CMakeFiles/___arm.dir/Units/Mage.cpp.obj: ../Weapons/BlackStaff.hpp
@@ -683,7 +671,6 @@ CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj: ../States/MageState.hpp
 CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj: ../States/NecromancerState.hpp
 CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj: ../States/SoldierState.hpp
 CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj: ../States/VampireState.hpp
-CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj: ../States/WereWolfState.hpp
 CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj: ../Units/Necromancer.cpp
 CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj: ../Units/Necromancer.hpp
 CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj: ../Weapons/BlackStaff.hpp
@@ -839,8 +826,6 @@ CMakeFiles/___arm.dir/Weapons/Dagger.cpp.obj: ../Weapons/Dagger.hpp
 CMakeFiles/___arm.dir/Weapons/Fists.cpp.obj: ../Interfaces/AbstractWeapon.hpp
 CMakeFiles/___arm.dir/Weapons/Fists.cpp.obj: ../Weapons/Fists.cpp
 CMakeFiles/___arm.dir/Weapons/Fists.cpp.obj: ../Weapons/Fists.hpp
-
-CMakeFiles/___arm.dir/Weapons/SourceWeapon.cpp.obj: ../Weapons/SourceWeapon.cpp
 
 CMakeFiles/___arm.dir/Weapons/Teeth.cpp.obj: ../Interfaces/AbstractWeapon.hpp
 CMakeFiles/___arm.dir/Weapons/Teeth.cpp.obj: ../Weapons/Teeth.cpp

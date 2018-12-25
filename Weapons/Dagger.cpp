@@ -9,10 +9,3 @@ Dagger::Dagger(AbstractUnit *holder)
 Dagger::~Dagger() {
 
 }
-
-//int Dagger::calculateDamage(AbstractUnit *holder) {
-//	int dmg = holder->getState()->getStrenght()*1.25;
-////	std::cout << "test " <<dmg * 2.5 << std::endl;
-////calculate the actual damage strenght
-//	return dmg;
-//}

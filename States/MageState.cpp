@@ -47,10 +47,6 @@ int MageState::getHp() const {
 	return SoldierState::getHp();
 }
 
-//double MageState::getDamage() const {
-//	return SoldierState::getDamage();
-//}
-
 const std::string MageState::getName() const {
 	return SoldierState::getName();
 }
@@ -66,10 +62,6 @@ void MageState::setHpLimit(int hitPointsLimit) {
 void MageState::setHp(int hitPoints) {
 	SoldierState::setHp(hitPoints);
 }
-
-//void MageState::setDamage(double damage) {
-//	SoldierState::setDamage(damage);
-//}
 
 int MageState::getStrenght() const {
 	return SoldierState::getStrenght();
