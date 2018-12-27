@@ -12,36 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="229554ae-66ff-486d-954f-c190ac8586be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/___arm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/diama.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Action.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Action.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interfaces/AbstractUnit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/AbstractUnit.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interfaces/AbstractUnit.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/AbstractUnit.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces/BattleField.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/BattleField.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Controller/GamePlayInterface.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Controller/GamePlayInterface.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Controller/actionfactory.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Controller/actionfactory.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Interfaces/AbstractCaster.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Interfaces/AbstractCaster.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Interfaces/AbstractPhysician.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Interfaces/AbstractPhysician.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Interfaces/AbstractUnit.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Interfaces/AbstractUnit.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Interfaces/BattleField.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Interfaces/BattleField.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Interfaces/Team.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Interfaces/Team.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Berserker.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Berserker.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Daemon.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Daemon.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Healer.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Healer.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Mage.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Mage.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Necromancer.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Priest.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Priest.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Rogue.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Rogue.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Soldier.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Soldier.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Vampire.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Vampire.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Warlock.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/Units/Warlock.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/___arm.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/___arm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/___arm.exe" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +32,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Interfaces/Team.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
+                <state relative-caret-position="54">
                   <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
                   <folding>
                     <element signature="e#26#44#0" expanded="true" />
@@ -68,12 +42,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/main.cpp">
+            <entry file="file://$PROJECT_DIR$/Controller/Action.hpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="e#0#19#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="108">
+                  <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -153,6 +125,7 @@
         <option value="$PROJECT_DIR$/Interfaces/AbstractPhysician.cpp" />
         <option value="$PROJECT_DIR$/Interfaces/AbstractUnit.hpp" />
         <option value="$PROJECT_DIR$/Interfaces/AbstractUnit.cpp" />
+        <option value="$PROJECT_DIR$/Controller/Action.hpp" />
       </list>
     </option>
   </component>
@@ -172,6 +145,11 @@
             <path>
               <item name="___arm" type="b2602c69:ProjectViewProjectNode" />
               <item name="___arm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="___arm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="___arm" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="___arm" type="b2602c69:ProjectViewProjectNode" />
@@ -225,7 +203,7 @@
       <workItem from="1545671429995" duration="4997000" />
       <workItem from="1545728031086" duration="779000" />
       <workItem from="1545739645946" duration="4215000" />
-      <workItem from="1545760048366" duration="1368000" />
+      <workItem from="1545760048366" duration="1741000" />
     </task>
     <task id="LOCAL-00001" summary="enter add">
       <created>1545662585388</created>
@@ -238,7 +216,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14200000" />
+    <option name="totallyTimeSpent" value="14573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -274,13 +252,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="enter add" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Abilities/Transformation.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Abilities/Transformation.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -515,16 +486,6 @@
     <entry file="file://$PROJECT_DIR$/Interfaces/Undead.hpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interfaces/Team.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="e#26#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -541,6 +502,23 @@
           <folding>
             <element signature="e#26#44#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/Team.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="e#26#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/Action.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
         </state>
       </provider>
     </entry>
