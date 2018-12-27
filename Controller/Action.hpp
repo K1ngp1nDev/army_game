@@ -28,7 +28,7 @@ inline std::ostream& operator<<(std::ostream& os, EActionType actionType) {
 	case EActionType::Ride:          os << "Ride";          break;
 	case EActionType::SummonDaemon:  os << "SummonDaemon";  break;
 	case EActionType::Transformation:os << "Transformation";break;
-	
+
 	    default:
         os << "EActionType::"; break;
     }

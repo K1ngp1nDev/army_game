@@ -14,8 +14,6 @@
     <list default="true" id="229554ae-66ff-486d-954f-c190ac8586be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/Action.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Action.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces/AbstractUnit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/AbstractUnit.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces/AbstractUnit.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/AbstractUnit.hpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +43,7 @@
             <entry file="file://$PROJECT_DIR$/Controller/Action.hpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="108">
-                  <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+                  <caret line="30" selection-start-line="30" selection-end-line="30" />
                 </state>
               </provider>
             </entry>
@@ -57,8 +55,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Interfaces/BattleField.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="419">
-                  <caret line="2034" column="43" lean-forward="true" selection-start-line="2034" selection-start-column="43" selection-end-line="2034" selection-end-column="43" />
+                <state relative-caret-position="365">
+                  <caret line="2031" column="25" selection-start-line="2031" selection-start-column="25" selection-end-line="2031" selection-end-column="25" />
                   <folding>
                     <element signature="e#26#44#0" expanded="true" />
                   </folding>
@@ -203,7 +201,7 @@
       <workItem from="1545671429995" duration="4997000" />
       <workItem from="1545728031086" duration="779000" />
       <workItem from="1545739645946" duration="4215000" />
-      <workItem from="1545760048366" duration="1741000" />
+      <workItem from="1545760048366" duration="3546000" />
     </task>
     <task id="LOCAL-00001" summary="enter add">
       <created>1545662585388</created>
@@ -216,7 +214,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14573000" />
+    <option name="totallyTimeSpent" value="16378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -495,16 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interfaces/BattleField.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="2034" column="43" lean-forward="true" selection-start-line="2034" selection-start-column="43" selection-end-line="2034" selection-end-column="43" />
-          <folding>
-            <element signature="e#26#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Interfaces/Team.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -518,7 +506,17 @@
     <entry file="file://$PROJECT_DIR$/Controller/Action.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/BattleField.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="2031" column="25" selection-start-line="2031" selection-start-column="25" selection-end-line="2031" selection-end-column="25" />
+          <folding>
+            <element signature="e#26#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
