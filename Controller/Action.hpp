@@ -35,7 +35,6 @@ inline std::ostream& operator<<(std::ostream& os, EActionType actionType) {
     return os;
 }
 
-
 class Action {
 private:
     EActionType m_type;

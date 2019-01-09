@@ -2022,7 +2022,6 @@ void BattleField::actionOfSelectedUnit(int answer) {
 			_cast->setSpellCaster(physician);
 			
 			question = "      Select spell: \n";
-			
 			////////////////////////////////////////////////////////////////////////////////////
 			
 			for ( const std::pair<Spell, AbstractSpell *> &spellPair : physician->_getHealerSpellBook()) {
